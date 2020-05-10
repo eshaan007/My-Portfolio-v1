@@ -1,1 +1,1 @@
-Made with ❤️ using my current favourite framework: https://img.shields.io/badge/React-JS-blue.svg  
+Made with ❤️ using my current favourite framework: REACT !!
