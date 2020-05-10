@@ -58,6 +58,7 @@ $link-color: #007FFF; // slateblue
 // $link-color: rgba(0, 127, 225, 0.75);
 
 article {
+  margin-left: 30px;
   max-width: 1000px;
   margin-top: 140px;
   padding: 10px;
@@ -140,11 +141,12 @@ article {
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
 
 .intro {
+  margin-top: 100px;
   color: $link-color;
   font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   @media only screen and (max-width: 600px) {
- 
+    margin-top: 50px;
   }
 }
 

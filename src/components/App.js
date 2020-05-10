@@ -4,6 +4,7 @@ import '../styles/App.scss';
 import Head from './head.js';
 import Navbar from './navbar.js';
 import avatar from '../images/avataaar.png';
+import About from '../pages/about.js';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       </article> 
 
       <img className="myavatar" src = {avatar} alt="Avatar"/>
-
+      <About/>
     </div>
   );
 }
