@@ -106,7 +106,11 @@ article {
     border: 2px solid #007FFF;
 
     @media only screen and (max-width: 600px) {
-   
+      
+      
+      padding: 8px 18px;
+      margin-top: 20px;
+      font-size: 12px;
     }
 
     &:after {
@@ -167,7 +171,8 @@ article {
 
 .desc {
   margin-top: 50px;
-  font-family: 'Abel', sans-serif;
+  //font-family: 'Abel', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
   margin-inline-end: 600px;
   color: #a6bdbf;
@@ -189,4 +194,10 @@ article {
   display: inline-block;
   vertical-align : middle;
   width: 200px;
+  margin-bottom: 450px;
+
+    @media only screen and (max-width: 600px) {
+      width: 120px;
+      
+    }
 }

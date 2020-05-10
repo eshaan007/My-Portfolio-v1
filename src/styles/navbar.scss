@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+
+.color-nav {
+    background-color: #0a192f;
+}
+
+.nav {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    float: left;
+    padding: 0;
+    list-style: none;
+    }
+
+.nav li {
+    float: left; 
+}
+
+.nav li a {
+        display: block;
+        padding: 8px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ade5f7;
+
+    &:hover {
+        color: white;
+    }
+}

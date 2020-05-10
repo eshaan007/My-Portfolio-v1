@@ -2,13 +2,14 @@ import React from 'react';
 import logo from '../logo.svg';
 import '../styles/App.scss';
 import Head from './head.js';
-import Header from './header.js';
+import Navbar from './navbar.js';
 import avatar from '../images/avataaar.png';
 
 function App() {
   return (
     <div className="App">
       <Head/>
+      <Navbar/>
       <article className = "contain">
         <h4 className="intro">Hi, my name is </h4>
         <h2 className="name">Eshaan Khurana.</h2>
