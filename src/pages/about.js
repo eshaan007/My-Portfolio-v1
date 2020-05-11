@@ -17,12 +17,10 @@ const About = () => {
                 <h4 id="no-mob" className="about-me"> I aspire toward a career that will allow me to channelize my creativity towards building interfaces which are not only <a className="bold-white">mobile friendly</a> but also user friendly providing engaging experiences.
                 I'm a keen learner who is always <a className="bold-white">looking for opportunities to absorb and work </a>with those who are willing to share their knowledge and experience.</h4>
                 
-                <h4 className="about-me"> When not in front of a computer, you will probably find me  
-                    <a className="bold-brown"> playing my guitar, </a> 
-                    <a className="bold-blue">relishing music, </a> 
-                    <a className="bold-white">watching football, </a> 
-                    <a className="bold-pink">blogging or </a>  
-                    <a className="bold-green">enjoying gaming sessions </a> with my friends.</h4>
+                <h4 className="about-me">  <a className="bold-white"> When not in front of a computer,</a> you will probably find me playing my
+                    <a className="bold-brown"> guitar, </a> relishing
+                     music, watching football, blogging or enjoying 
+                    <a className="bold-green"> gaming sessions </a> with my friends.</h4>
 
             </div>
 
