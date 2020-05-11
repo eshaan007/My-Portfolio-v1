@@ -5,7 +5,7 @@ import me from '../images/me-code-4.png'
 const About = () => {
     return(
         <div>
-            <div className="contain">
+            <div className="contain1">
                 <h3 className="heading"> <a className="number-about">01. </a>About Me </h3>
                 <h4 className="about-me-bold"> Hello! I am Eshaan Khurana. </h4>
                 <h4 className="about-me-bold"> I am a web developer leaning towards front end development and design.</h4>

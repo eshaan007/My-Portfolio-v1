@@ -65,6 +65,10 @@ article {
   font-family: "Source Sans Pro", sans-serif;
   color: #36363C;
 
+  @media only screen and (max-width: 600px) {
+    margin-top: 150px;
+  }
+
   h1 {
     font-weight: 300;
     line-height: 1.5;
