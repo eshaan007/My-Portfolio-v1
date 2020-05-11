@@ -5,13 +5,13 @@ import Head from './head.js';
 import Navbar from './navbar.js';
 import avatar from '../images/avataaar.png';
 import About from '../pages/about.js';
-
+import Skills from '../pages/skills.js';
 
 function App() {
   return (
     <div className="App">
-      <Head/>
-      <Navbar/>
+      <Head />
+      <Navbar />
       <article className = "contain">
         <h4 className="intro">Hi, my name is </h4>
         <h2 className="name">Eshaan Khurana.</h2>
@@ -28,7 +28,8 @@ function App() {
       </article> 
 
       <img className="myavatar" src = {avatar} alt="Avatar"/>
-      <About/>
+      <About />
+      <Skills />
     </div>
   );
 }

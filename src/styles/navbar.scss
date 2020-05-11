@@ -59,7 +59,7 @@ a {
   .header {
     
     transition: top 0.5s;
-    margin-left: 15px;
+  //  margin-left: 15px;
     background-color: #0a192f;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
     max-width: 1300px;
@@ -85,7 +85,7 @@ a {
   
   .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-decoration: none;
   }
   
@@ -159,7 +159,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-    max-height: 310px;
+    max-height: 350px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
