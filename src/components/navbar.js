@@ -16,7 +16,9 @@ const Navbar = () => {
                     {/* <li> <a href=""> Certifications</a> </li>
                     <li> <a href=""> Experience</a> </li> */}
                     <li> <a href=""> Contact Me</a> </li>
-                    <li> <a href=""> Resume</a> </li>
+                    <button className="resume" target="_blank" rel="noopener noreferrer">
+                        <li> <a className="res" href="https://google.com"> Resume</a> </li>
+                    </button>
                                         
                 </ul>
             </header>
