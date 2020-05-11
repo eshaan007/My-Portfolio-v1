@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 // .color-nav {
 //     background-color: #0a192f;
@@ -31,7 +32,11 @@
 //     }
 // }
 
+.logo {
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
 
+}
 
 
 a {
@@ -39,8 +44,7 @@ a {
     font-family: 'Roboto Mono', monospace;
 
     &:hover {
-        color: #007fff;
-    }
+        color: white;    }
 
   }
 

@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
 
             <header className="header">
-                <a href="" className="logo">EK</a>
+                <a href="" className="logo">Eshaan Khurana</a>
                 <input className="menu-btn" type="checkbox" id="menu-btn" />
                 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                 <ul className="menu">

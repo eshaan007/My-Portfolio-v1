@@ -6,6 +6,7 @@ import Navbar from './navbar.js';
 import avatar from '../images/avataaar.png';
 import About from '../pages/about.js';
 
+
 function App() {
   return (
     <div className="App">
