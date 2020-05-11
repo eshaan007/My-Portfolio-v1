@@ -65,6 +65,10 @@
         margin-right: auto;
         width: 95%;
         margin-bottom: 50px;
+
+        #no-mob {
+            display: none;
+        }
       }
   }
 
@@ -133,4 +137,8 @@
     &:hover {
         color: rgb(33, 236, 33);
     }
+}
+
+#no-mob {
+    display: block;
 }

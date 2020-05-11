@@ -13,9 +13,9 @@ const About = () => {
                 I enjoy designing websites using multiple frameworks and tools provided by <a className="bold-yellow"> JS </a>.</h4>
 
                 <h4 className="about-me"> My goal is to build <a className="bold-blue">pixel-perfect components</a> and practical projects which provide a rich user experience with <a className="bold-white">real world application.</a> </h4>
-                <h4 className="about-me"> I aspire toward a career that will allow me to channelize my creativity towards building interfaces which are not only <a className="bold-white">mobile friendly</a> but also user friendly providing engaging experiences.
+             
+                <h4 id="no-mob" className="about-me"> I aspire toward a career that will allow me to channelize my creativity towards building interfaces which are not only <a className="bold-white">mobile friendly</a> but also user friendly providing engaging experiences.
                 I'm a keen learner who is always <a className="bold-white">looking for opportunities to absorb and work </a>with those who are willing to share their knowledge and experience.</h4>
-                <h4 className="about-me">  </h4>
                 
                 <h4 className="about-me"> When not in front of a computer, you will probably find me  
                     <a className="bold-brown"> playing my guitar, </a> 
