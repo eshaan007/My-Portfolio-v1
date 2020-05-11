@@ -12,6 +12,8 @@
   
     @media only screen and (max-width: 600px) {
       font-size: 1.7rem;
+      margin-top: 0px;
+      margin-left: 20px;
     }
 
     .number-about {
@@ -25,5 +27,110 @@
     color: #a6bdbf;
     font-weight: normal;
     margin-left: 50px;
-    margin-inline-end: 400px;
+    font-size: 18px;
+    max-width: 600px;
+    margin-inline-end: 100px;
+    
+    @media only screen and (max-width: 600px) {
+        font-size: 16px;
+        margin-inline-end: 0px;
+        margin-left: 20px;
+    }
+}
+
+.about-me-bold {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #a6bdbf;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 28px;
+    max-width: 600px;
+    margin-inline-end: 150px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 20px;
+        margin-inline-end: 0px;
+        margin-left: 20px;
+    }
+}
+
+.contain {
+    display: inline-block;
+    margin-bottom: 150px;
+
+    @media only screen and (max-width: 600px) {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-bottom: 50px;
+      }
+  }
+
+.me {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+    display: inline-block;
+    vertical-align : 30px;
+    width: 300px;
+    margin-bottom: 50px;
+
+    @media only screen and (max-width: 600px) {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+}
+
+.bold-blue {
+    color: #007fff;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.bold-yellow {
+    color: yellow;
+    font-weight: bold;
+
+    &:hover {
+        color: rgb(255, 230, 0);
+    }
+}
+
+.bold-white {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.bold-brown {
+    color: rgb(230, 149, 84);
+    font-family: "Source Sans Pro", sans-serif;
+
+    &:hover {
+        color: rgb(235, 169, 115);
+    }
+}
+
+.bold-pink {
+    color: rgb(224, 144, 157);
+    font-family: "Source Sans Pro", sans-serif;
+
+    &:hover {
+        color: rgb(224, 144, 157);
+    }
+}
+
+.bold-green {
+    color: rgb(33, 236, 33);
+    font-family: "Source Sans Pro", sans-serif;
+
+    &:hover {
+        color: rgb(33, 236, 33);
+    }
 }

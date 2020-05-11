@@ -198,6 +198,8 @@ article {
 }
 
 .myavatar {
+  -webkit-filter: drop-shadow(5px 5px 5px #ffffff);
+  filter: drop-shadow(5px 5px 5px #222);
   display: inline-block;
   vertical-align : middle;
   width: 200px;
@@ -208,6 +210,7 @@ article {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 120px;
       width: 35%;
     }
 }
