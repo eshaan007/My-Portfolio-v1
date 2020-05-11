@@ -187,6 +187,10 @@ article {
   }
 }
 
+.mail {
+  text-decoration: none;
+}
+
 
 .contain {
   display: inline-block;
@@ -199,7 +203,10 @@ article {
   margin-bottom: 450px;
 
     @media only screen and (max-width: 600px) {
-      width: 120px;
-      
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 35%;
     }
 }

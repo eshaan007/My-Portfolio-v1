@@ -19,7 +19,7 @@ function App() {
           Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👩🏻‍💻</h4>
         <p>
           <button className="arrow-link" target="_blank" rel="noopener noreferrer">
-            <a href="mailto:eshaany2k@gmail.com">
+            <a className="mail" href="mailto:eshaany2k@gmail.com">
               Get in touch
             </a>
           </button>

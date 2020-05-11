@@ -49,6 +49,7 @@ a {
   
   .header {
     
+    transition: top 0.5s;
     margin-left: 15px;
     background-color: #0a192f;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
@@ -62,7 +63,7 @@ a {
         margin-left: 0px;
     }
   }
-  
+
   .header ul {
     
     
