@@ -153,6 +153,7 @@ a {
   
   .header .menu-btn {
     display: none;
+    
   }
   
   .header .menu-btn:checked ~ .menu {
@@ -164,6 +165,7 @@ a {
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
+    
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon:before {
@@ -177,6 +179,7 @@ a {
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
+    
   }
   
   /* 48em = 768px */
@@ -187,6 +190,7 @@ a {
     }
     .header li a {
       padding: 20px 30px;
+      
     }
     .header .menu {
       clear: none;
