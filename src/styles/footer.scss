@@ -1,0 +1,29 @@
+.intro1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1rem;
+    align-items: center;
+    line-height: 0px;
+    text-align: center;
+    display: block;
+
+    @media only screen and (max-width: 600px) {
+      margin-top: 10px;
+      font-size: 0.8rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+}
+
+.cont {
+    color: #FFFfff;
+    margin-bottom: 40px;
+
+    @media only screen and (max-width: 600px) { 
+        margin-bottom: 20px;
+    }
+
+    &:hover {
+        color: #007fff;
+    }
+}

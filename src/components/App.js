@@ -5,6 +5,7 @@ import Navbar from './navbar.js';
 import avatar from '../images/avataaar.png';
 import About from '../pages/about.js';
 import Skills from '../pages/skills.js';
+import Footer from '../components/footer.js';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <img className="myavatar" src = {avatar} alt="Avatar"/>
       <About />
       <Skills />
+      <Footer />
     </div>
   );
 }

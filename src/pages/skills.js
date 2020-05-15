@@ -27,24 +27,28 @@ const Skills = () => {
             <h4 className="about-me-bold1"> These are the technologies I have experience working with :</h4>
             
             <div id="no-mob" className="logo-container">
-                <img className="logo" src={android} alt="android"></img>
+                
+                <img className="logo" src={html5} alt="html5"></img>
+                <img className="logo" src={css3} alt="css"></img>
+                <img className="logo" src={sass} alt="sass"></img>
+                <img className="logo" src={js} alt="js"></img>
+                <img className="logo" src={react} alt="react"></img>
                 <img className="logo" src={bootstrap4} alt="bootstrap"></img>
-                <img className="logo" src={C} alt="android"></img>
-                <img className="logo" src={Cpp} alt="android"></img>
-                <img className="logo" src={css3} alt="android"></img>
-                <img className="logo" src={firebase} alt="android"></img>
-                <img className="logo" src={github} alt="android"></img>
-                <img className="logo" src={html5} alt="android"></img>
-                <img className="logo" src={java} alt="android"></img>
-                <img className="logo" src={jquery} alt="android"></img>
-                <img className="logo" src={js} alt="android"></img>
-                <img className="logo" src={linux} alt="android"></img>
-                <img className="logo" src={nodejs} alt="android"></img>
-                <img className="logo" src={npm} alt="android"></img>
-                <img className="logo" src={postman} alt="android"></img>
-                <img className="logo" src={python3} alt="android"></img>
-                <img className="logo" src={react} alt="android"></img>
-                <img className="logo" src={sass} alt="android"></img>
+                <img className="logo" src={github} alt="github"></img>
+                
+                
+                
+                <img className="logo" src={android} alt="android"></img>
+                <img className="logo" src={C} alt="C"></img>
+                <img className="logo" src={Cpp} alt="C++"></img>
+                <img className="logo" src={firebase} alt="firebase"></img>
+                <img className="logo" src={java} alt="java"></img>
+                <img className="logo" src={jquery} alt="jquery"></img>
+                <img className="logo" src={linux} alt="linux"></img>
+                <img className="logo" src={nodejs} alt="node"></img>
+                <img className="logo" src={npm} alt="npm"></img>
+                <img className="logo" src={postman} alt="postman"></img>
+                <img className="logo" src={python3} alt="py"></img>
             </div>
         </div>
     )
