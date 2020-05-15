@@ -238,8 +238,27 @@ article {
     }
 }
 
-.animate-hand {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  font-size: 1.9rem;
-}
+
+  span.animate-hand {
+    animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+    animation-duration: 3s;          /* Change to speed up or slow down */
+    animation-iteration-count: infinite;    /* Never stop waving :) */
+    transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+    display: inline-block;
+    font-size: 1.8rem;
+
+    @media only screen and (max-width: 600px) {
+      
+      font-size: 1.5rem;
+    }
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate(  0.0deg) }
+     10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+     20% { transform: rotate( 12.0deg) }
+     30% { transform: rotate(-10.0deg) }
+     40% { transform: rotate(  9.0deg) }
+     50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
+    100% { transform: rotate(  0.0deg) }
+  }
