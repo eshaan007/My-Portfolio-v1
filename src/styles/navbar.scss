@@ -33,6 +33,7 @@
 // }
 
 .logo {
+    color: #a6bdbf;
     font-family: 'Lobster', cursive;
     font-weight: lighter;
 
@@ -44,7 +45,7 @@
 
 
 a {
-    color: #a6bdbf;
+    color: #ffffff;
     font-family: 'Roboto Mono', monospace;
 
     &:hover {
@@ -85,7 +86,7 @@ a {
   
   .header li a {
     display: block;
-    padding: 10px 10px;
+    padding: 15px 20px;
     text-decoration: none;
   }
   
@@ -108,6 +109,7 @@ a {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
+    
   }
   
   /* menu icon */
@@ -139,6 +141,7 @@ a {
     position: absolute;
     transition: all .2s ease-out;
     width: 100%;
+    
   }
   
   .header .menu-icon .navicon:before {
@@ -157,14 +160,14 @@ a {
   }
   
   .header .menu-btn:checked ~ .menu {
-    margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    //width: 35%;
     max-height: 350px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
     background: transparent;
+    
     
   }
   
@@ -179,6 +182,7 @@ a {
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
+    
     
   }
   
@@ -196,9 +200,11 @@ a {
       clear: none;
       float: right;
       max-height: none;
+      
     }
     .header .menu-icon {
       display: none;
+      
     }
   }
   
@@ -219,7 +225,7 @@ a {
     border-radius: 4px;
 
     @media only screen and (max-width: 600px) {    
-        margin-left: 15px ;
+        margin-left: 20px ;
       font-size: 12px;
     }
 
@@ -247,4 +253,49 @@ a {
 
   .res {
       text-decoration: none;
+  }
+
+
+
+
+  .resume1 {
+    color: #007FFF; 
+    font-weight: bold;
+    border: #007FFF;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    background-color: #0a192f;
+    color: #007FFF; 
+    border: 2px solid #007FFF;
+    border-radius: 4px;
+
+    @media only screen and (max-width: 600px) {    
+        margin-left: 20px ;
+      font-size: 12px;
+    }
+
+    &:after {
+      position: relative;
+      bottom: 0.2ex;
+      border: 2px solid #007FFF;
+      color: #007fff;
+      font-family: "FontAwesome";
+      font-size: 1.5rem;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transition: all .15s ease-in-out;
+    }
+
+    &:hover {
+      background-color: rgba(100, 180, 255, 0.07);
+      color: #007FFF;
+    }
+
+    &:hover:after {
+      transform: translateX(7px);
+    }
   }

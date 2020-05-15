@@ -14,8 +14,8 @@ function App() {
       <article className = "contain">
         <h4 className="intro">Hi, my name is </h4>
         <h2 className="name">Eshaan Khurana.</h2>
-        <h2 className="aftername"> I build things for the web.</h2>
-        <h4 className="desc">I'm a Sophomore @ IIIT, Vadodara specializing in building websites using various frameworks.
+        <h2 className="aftername"> I build amazing experiences.</h2>
+        <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design.
           Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👩🏻‍💻</h4>
         <p>
           <button className="arrow-link" target="_blank" rel="noopener noreferrer">

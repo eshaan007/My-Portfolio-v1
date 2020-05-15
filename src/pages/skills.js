@@ -2,7 +2,12 @@ import React from 'react';
 
 const Skills = () => {
     return(
-        <h3></h3>
+        <div>
+            <h3> These are the technologies I have experience working with :  </h3>
+            <div>
+                <img src=""></img>
+            </div>
+        </div>
     )
 }
 
