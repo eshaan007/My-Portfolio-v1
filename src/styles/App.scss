@@ -162,9 +162,10 @@ article {
   margin-top: 100px;
   color: $link-color;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1rem;
+  font-size: 1.3rem;
   @media only screen and (max-width: 600px) {
     margin-top: 10px;
+    font-size: 1rem;
   }
 }
 

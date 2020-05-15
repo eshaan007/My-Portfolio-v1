@@ -12,7 +12,7 @@ function App() {
       <Head />
       <Navbar />
       <article className = "contain">
-        <h4 className="intro">Hi, my name is </h4>
+        <h4 className="intro">👋 Hi, my name is </h4>
         <h2 className="name">Eshaan Khurana.</h2>
         <h2 className="aftername"> I build amazing experiences.</h2>
         <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design.
