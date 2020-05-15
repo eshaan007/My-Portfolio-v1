@@ -18,6 +18,7 @@
 .cont {
     color: #FFFfff;
     margin-bottom: 40px;
+    transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) { 
         margin-bottom: 20px;
