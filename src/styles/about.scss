@@ -46,8 +46,12 @@
     
     @media only screen and (max-width: 600px) {
         font-size: 17px;
-        margin-inline-end: 0px;
-        margin-left: 20px;
+       // margin-inline-end: 0px;
+       // margin-left: 20px;
+       display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
     }
 }
 
