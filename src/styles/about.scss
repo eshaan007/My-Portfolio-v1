@@ -26,7 +26,10 @@
     @media only screen and (max-width: 600px) {
       font-size: 1.7rem;
       margin-top: 0px;
-     margin-left: 20px;
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
     }
 
     .number-about {
@@ -66,8 +69,10 @@
 
     @media only screen and (max-width: 600px) {
         font-size: 23px;
-        margin-inline-end: 0px;
-        margin-left: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
     }
 }
 

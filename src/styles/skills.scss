@@ -17,8 +17,10 @@
 
   @media only screen and (max-width: 600px) {
       font-size: 23px;
-      margin-inline-end: 0px;
-      margin-left: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
   }
 }
 
@@ -29,7 +31,10 @@
 
   @media only screen and (max-width: 600px) {
     margin-bottom: 120px;
-    margin-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
 }
 
