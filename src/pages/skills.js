@@ -28,37 +28,39 @@ import '../styles/skills.scss';
 
 const Skills = () => {
     return(
-        <div>
-            <h3 className="heading"> <a className="number-about">02. </a> My Skill - Set </h3>
-            <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>
-            
-            <div id="no-mob" className="logo-container">
+        <div id="skills-page">
+            <div>
+                <h3 className="heading"> <a className="number-about"> 02. </a> My Skill - Set </h3>
+                <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>
                 
-                <img className="logo" src={html5} alt="html5"></img>
-                <img className="logo" src={css3} alt="css"></img>
-                <img className="logo" src={sass} alt="sass"></img>
-                <img className="logo" src={js} alt="js"></img>
-                <img className="logo" src={react} alt="react"></img>
-                <img className="logo" src={bootstrap4} alt="bootstrap"></img>
-                <img className="logo" src={jquery} alt="jquery"></img> 
-                <img className="logo" src={github} alt="github"></img>
-                <img className="logo" src={java} alt="java"></img>
-                <img className="logo" src={python3} alt="py"></img>
-                <img className="logo" src={C} alt="C"></img>
-                <img className="logo" src={Cpp} alt="C++"></img>
-                <img className="logo" src={nodejs} alt="node"></img>
-                <img className="logo1" src={mongodb} alt="mongodb"></img>
-                <img className="logo" src={npm} alt="npm"></img>
-                <img className="logo" src={expressjs} alt="express"></img>
-                <img className="logo" src={postman} alt="postman"></img>
-                <img className="logo" src={mysql} alt="mysql"></img>
-                <img className="logo" src={android} alt="android"></img>
-                <img className="logo" src={firebase} alt="firebase"></img>
-                <img className="logo" src={linux} alt="linux"></img>
-                <img className="logo" src={vscode} alt="visual studio code"></img>
-                <img className="logo" src={figma} alt="figma"></img>
-                <img className="logo" src={netlify} alt="netlify"></img>
-                
+                <div id="no-mob" className="logo-container">
+                    
+                    <img className="logo" src={html5} alt="html5"></img>
+                    <img className="logo" src={css3} alt="css"></img>
+                    <img className="logo" src={sass} alt="sass"></img>
+                    <img className="logo" src={js} alt="js"></img>
+                    <img className="logo" src={react} alt="react"></img>
+                    <img className="logo" src={bootstrap4} alt="bootstrap"></img>
+                    <img className="logo" src={jquery} alt="jquery"></img> 
+                    <img className="logo" src={github} alt="github"></img>
+                    <img className="logo" src={java} alt="java"></img>
+                    <img className="logo" src={python3} alt="py"></img>
+                    <img className="logo" src={C} alt="C"></img>
+                    <img className="logo" src={Cpp} alt="C++"></img>
+                    <img className="logo" src={nodejs} alt="node"></img>
+                    <img className="logo1" src={mongodb} alt="mongodb"></img>
+                    <img className="logo" src={npm} alt="npm"></img>
+                    <img className="logo" src={expressjs} alt="express"></img>
+                    <img className="logo" src={postman} alt="postman"></img>
+                    <img className="logo" src={mysql} alt="mysql"></img>
+                    <img className="logo" src={android} alt="android"></img>
+                    <img className="logo" src={firebase} alt="firebase"></img>
+                    <img className="logo" src={linux} alt="linux"></img>
+                    <img className="logo" src={vscode} alt="visual studio code"></img>
+                    <img className="logo" src={figma} alt="figma"></img>
+                    <img className="logo" src={netlify} alt="netlify"></img>
+                    
+                </div>
             </div>
         </div>
     )
