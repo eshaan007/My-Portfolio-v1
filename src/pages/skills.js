@@ -28,7 +28,11 @@ import '../styles/skills.scss';
 
 const Skills = () => {
     return(
+        <div>
+
         <div id="skills-page">
+        </div>
+            
             <div>
                 <h3 className="heading"> <a className="number-about"> 02. </a> My Skill - Set </h3>
                 <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>
@@ -62,8 +66,9 @@ const Skills = () => {
                     
                 </div>
             </div>
+
         </div>
-    )
-}
+        )
+    }
 
 export default Skills
