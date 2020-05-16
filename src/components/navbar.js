@@ -10,10 +10,10 @@ const Navbar = () => {
                 <input className="menu-btn" type="checkbox" id="menu-btn" />
                 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                 <ul className="menu">
-                    <li> <a href=""> About Me </a> </li>
-                    <li> <a href=""> Skills</a> </li>
-                    <li> <a href=""> Projects</a> </li>
-                    <li> <a href=""> Contact Me</a> </li>
+                    <li> <a className="ind" href=""> About Me </a> </li>
+                    <li> <a className="ind" href=""> Skills</a> </li>
+                    <li> <a className="ind" href=""> Projects</a> </li>
+                    <li> <a className="ind" href=""> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
                         <li> <a className="res" href="https://google.com"> Resume</a> </li>
                     </button>
