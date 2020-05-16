@@ -67,10 +67,7 @@ a {
      position: fixed;
      width: 100%;
      z-index: 3;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
+  
   
 
     @media only screen and (max-width: 600px) {
@@ -267,4 +264,5 @@ a {
 
   .ind {
     transition: all .3s ease-in-out;
+    scroll-behavior: smooth;
   }

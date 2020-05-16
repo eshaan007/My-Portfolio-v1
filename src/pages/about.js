@@ -4,7 +4,7 @@ import me from '../images/me-code-4.png'
 
 const About = () => {
     return(
-        <div>
+        <div id="about-page">
             <div className="contain1">
                 <h3 className="heading"> <a className="number-about">01. </a>About Me </h3>
                 <h4 className="about-me-bold"> Hello! I am Eshaan Khurana. </h4>
