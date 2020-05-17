@@ -11,7 +11,8 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
     "react-rotating-text": "^1.4.1",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "simple-flexbox": "^2.3.1"
   },
   "scripts": {
     "start": "react-scripts start",

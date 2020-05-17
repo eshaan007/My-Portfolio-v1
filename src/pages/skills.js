@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{ Component } from 'react';
+import { Column, Row } from 'simple-flexbox';
+
 import android from '../images/android-studio.png';
 import bootstrap4 from '../images/bootstrap4.png';
 import C from '../images/C.png';
@@ -26,20 +28,108 @@ import mongodb from '../images/mongodb.png';
 
 import '../styles/skills.scss';
 
-const Skills = () => {
+class Skills extends Component {
+    render() {
     return(
         <div>
 
         <div id="skills-page">
         </div>
             
-            <div>
-                <h3 className="heading"> <a className="number-about"> 02. </a> My Skill - Set </h3>
-                <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>
+        <div>
+            <h3 className="heading"> <a className="number-about"> 02. </a> My Skill - Set </h3>
+            <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>
                 
-                <div id="no-mob" className="logo-container">
-                    
-                    <img className="logo" src={html5} alt="html5"></img>
+            <div id="no-mob" className="logo-container">
+                            
+            <Column flexGrow={1}>
+                <Row wrap vertical='center'>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={html5} alt="html5"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={css3} alt="css"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={sass} alt="sass"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={js} alt="js"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={react} alt="react"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={bootstrap4} alt="bootstrap"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={jquery} alt="jquery"></img> 
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={github} alt="github"></img>
+                    </Column>
+                    </Row>
+            </Column>
+
+            <Column flexGrow={1}>
+                    <Row wrap vertical='center'>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={java} alt="java"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={python3} alt="py"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={C} alt="C"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={Cpp} alt="C++"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={nodejs} alt="node"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={mysql} alt="mysql"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={npm} alt="npm"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={expressjs} alt="express"></img>
+                    </Column>
+                    </Row>
+            </Column>
+
+            <Column flexGrow={1}>
+                    <Row wrap vertical='center'>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={postman} alt="postman"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo1" src={mongodb} alt="mongodb"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={android} alt="android"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={firebase} alt="firebase"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={linux} alt="linux"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={vscode} alt="visual studio code"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={figma} alt="figma"></img>
+                    </Column>
+                    <Column flexGrow={1} horizontal='center'>
+                        <img className="logo" src={netlify} alt="netlify"></img>
+                    </Column>
+                    </Row>
+            </Column>
+
+                    {/* <img className="logo" src={html5} alt="html5"></img>
                     <img className="logo" src={css3} alt="css"></img>
                     <img className="logo" src={sass} alt="sass"></img>
                     <img className="logo" src={js} alt="js"></img>
@@ -63,12 +153,12 @@ const Skills = () => {
                     <img className="logo" src={vscode} alt="visual studio code"></img>
                     <img className="logo" src={figma} alt="figma"></img>
                     <img className="logo" src={netlify} alt="netlify"></img>
-                    
+                     */}
                 </div>
             </div>
 
         </div>
-        )
+        );
     }
-
-export default Skills
+}
+export default Skills;
