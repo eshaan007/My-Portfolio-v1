@@ -80,3 +80,11 @@
     height: auto;
   }
 }
+
+#skills-page {
+  margin-top: 100px;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 0px;
+  }
+}
