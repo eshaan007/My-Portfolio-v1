@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Component} from 'react';
 import '../styles/about.scss';
-import me from '../images/me-code-4.png'
+import me from '../images/me-code-4.png';
+import Zoom from 'react-reveal/Zoom';
 
-const About = () => {
+
+class About extends Component {
+    render() {
     return(
         <div id="about-page">
+            <Zoom>
             <div className="contain1">
+                
                 <h3 className="heading"> <a className="number-about">01. </a>About Me </h3>
                 <h4 className="about-me-bold"> Hello! I am Eshaan Khurana. </h4>
                 <h4 className="about-me-bold"> I am a web developer leaning towards front end development and design.</h4>
@@ -21,12 +26,14 @@ const About = () => {
                     <a className="bold-brown"> guitar, </a> relishing
                      music, watching football, blogging or enjoying 
                     <a className="bold-green"> gaming sessions </a> with my friends.</h4>
-
+                
             </div>
+            </Zoom>
 
             <img className="me" src = {me} alt="Eshaan"/>
         </div>
     );
+    }
 }
 
 export default About
