@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/navbar.scss';
+import Resume from '../images/Eshaan_Khurana_Resume.pdf';
 
 const Navbar = () => {
     return(
@@ -15,7 +16,7 @@ const Navbar = () => {
                     <li> <a className="ind" href="/"> My Work</a> </li>
                     <li> <a className="ind" href="/"> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
-                        <li> <a className="res" href="https://google.com"> Resume</a> </li>
+                        <li> <a className="res" href={Resume}> Resume</a> </li>
                     </button>
                                         
                 </ul>
