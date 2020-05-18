@@ -1,4 +1,4 @@
-import React from 'react';                              
+import React, { Component } from 'react';                              
 import '../styles/App.scss';
 import Head from './head.js';
 import Navbar from './navbar.js';
@@ -6,15 +6,21 @@ import avatar from '../images/avataaar.png';
 import About from '../pages/about.js';
 import Skills from '../pages/skills.js';
 import Footer from '../components/footer.js';
+import Fade from 'react-reveal/Fade';
 
-function App() {
+
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <Head />
       <Navbar />
       <article className = "contain">
+        <Fade bottom>
+        <Fade bottom cascade>
         <h4 className="intro"> <span className="animate-hand">👋</span> Hi, my name is </h4>
         <h2 className="name">Eshaan Khurana.</h2>
+        </Fade>
         <h2 className="aftername"> I build amazing experiences.</h2>
         <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design.
           Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👩🏻‍💻</h4>
@@ -25,6 +31,7 @@ function App() {
             </a>
           </button>
         </p>
+        </Fade>
       </article> 
 
       <img className="myavatar" src = {avatar} alt="Avatar"/>
@@ -33,6 +40,7 @@ function App() {
       <Footer />
     </div>
   );
+}
 }
 
 export default App;
