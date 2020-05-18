@@ -32,12 +32,12 @@ import Fade from 'react-reveal/Fade';
 class Skills extends Component {
     render() {
     return(
-        <div className="skills-page">
+        <div id="skills-page">
             <Fade bottom>
             <h3 className="heading"> <a className="number-about"> 02. </a> My Skill - Set </h3>
             <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>        
             </Fade>
-            
+
             <div id="no-mob" className="logo-container">       
             <Fade bottom>
                 <Column flexGrow={1}>
