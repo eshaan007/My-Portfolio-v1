@@ -3,7 +3,7 @@ import '../styles/about.scss';
 import me from '../images/me-code-4.png';
 import Fade from 'react-reveal/Fade';
 
-class About extends Component {
+class About extends React.Component {
     render() {
     return(
         
