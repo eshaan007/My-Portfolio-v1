@@ -28,7 +28,9 @@ class About extends React.Component {
             </Fade>    
             </div>
 
+            <Fade bottom>  
             <img className="me" src = {me} alt="Eshaan"/>
+            </Fade> 
         </div>
         
     );
