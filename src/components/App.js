@@ -17,8 +17,8 @@ class App extends Component {
       <Navbar />
       <article className = "contain">
         <Fade bottom>
-        <Fade bottom cascade>
         <h4 className="intro"> <span className="animate-hand">👋</span> Hi, my name is </h4>
+        <Fade bottom cascade>
         <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
         <h2 className="aftername"> I build amazing experiences.</h2>
@@ -33,8 +33,9 @@ class App extends Component {
         </p>
         </Fade>
       </article> 
-
+      <Fade bottom>
       <img className="myavatar" src = {avatar} alt="Avatar"/>
+      </Fade>
       <About />
       <Skills />
       <Footer />

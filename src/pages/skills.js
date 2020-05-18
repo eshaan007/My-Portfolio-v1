@@ -27,17 +27,19 @@ import mysql from '../images/mysql.png';
 import mongodb from '../images/mongodb.png';
 
 import '../styles/skills.scss';
-
+import Fade from 'react-reveal/Fade';
 
 class Skills extends Component {
     render() {
     return(
         <div className="skills-page">
+            <Fade bottom>
             <h3 className="heading"> <a className="number-about"> 02. </a> My Skill - Set </h3>
-            <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>
-                
-            <div id="no-mob" className="logo-container">
-                            
+            <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>        
+            </Fade>
+            
+            <div id="no-mob" className="logo-container">       
+            <Fade bottom>
                 <Column flexGrow={1}>
                 <Row wrap vertical='center'>
                     <Column flexGrow={1} horizontal='center'>
@@ -66,7 +68,9 @@ class Skills extends Component {
                     </Column>
                     </Row>
                 </Column>
+            </Fade>
 
+            <Fade bottom>
                 <Column flexGrow={1}>
                     <Row wrap vertical='center'>
                     <Column flexGrow={1} horizontal='center'>
@@ -95,7 +99,9 @@ class Skills extends Component {
                     </Column>
                     </Row>
                 </Column>
+            </Fade>
 
+            <Fade bottom>
                 <Column flexGrow={1}>
                     <Row wrap vertical='center'>
                     <Column flexGrow={1} horizontal='center'>
@@ -124,10 +130,11 @@ class Skills extends Component {
                     </Column>
                     </Row>
                 </Column>
-
-                </div>
+            </Fade>
+            
             </div>
-        );
+        </div>
+    );
     }
 }
 export default Skills;
