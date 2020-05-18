@@ -1,16 +1,15 @@
 import React, { Component} from 'react';
 import '../styles/about.scss';
 import me from '../images/me-code-4.png';
-import Zoom from 'react-reveal/Zoom';
-
+import Fade from 'react-reveal/Fade';
 
 class About extends Component {
     render() {
     return(
+        
         <div id="about-page">
-            <Zoom>
             <div className="contain1">
-                
+            <Fade bottom>        
                 <h3 className="heading"> <a className="number-about">01. </a>About Me </h3>
                 <h4 className="about-me-bold"> Hello! I am Eshaan Khurana. </h4>
                 <h4 className="about-me-bold"> I am a web developer leaning towards front end development and design.</h4>
@@ -26,12 +25,12 @@ class About extends Component {
                     <a className="bold-brown"> guitar, </a> relishing
                      music, watching football, blogging or enjoying 
                     <a className="bold-green"> gaming sessions </a> with my friends.</h4>
-                
+            </Fade>    
             </div>
-            </Zoom>
 
             <img className="me" src = {me} alt="Eshaan"/>
         </div>
+        
     );
     }
 }
