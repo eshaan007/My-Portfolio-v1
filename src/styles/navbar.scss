@@ -32,18 +32,6 @@
 //     }
 // }
 
-.logo {
-    color: #a6bdbf;
-    font-family: 'Lobster', cursive;
-    font-weight: lighter;
-
-    &:hover {
-        color: #ffffff;
-    }
-
-}
-
-
 a {
     color: #ffffff;
     font-family: 'Roboto Mono', monospace;
@@ -265,4 +253,8 @@ a {
   .ind {
     transition: all .3s ease-in-out;
     scroll-behavior: smooth;
+  }
+
+  .logo {
+    transition: all .3s ease-in-out;
   }

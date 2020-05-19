@@ -1,5 +1,4 @@
-
-  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .logo {
   width: 90px;
@@ -52,11 +51,11 @@
 .logo-container {
   max-width: 1200px;
  // margin-left: 50px;
-  margin-bottom: 450px;
+  margin-bottom: 250px;
 
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;

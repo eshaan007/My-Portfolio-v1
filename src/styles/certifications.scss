@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.about-cert {
+    margin-left: 50px;
+    flex: 1;
+    flex-direction: 'row';
+    align-items: 'center';
+    justify-content: 'center';
+}
+
+.cert-name {
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+
+}
+
+.cert-desc {
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+
+}
+
+.heading-cert {
+    margin-top: 100px;
+    color: #ffffff;
+    //margin-top: -20px;
+    margin-left: 50px;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    margin-bottom: 50px;
+   
+    @keyframes fadeInAnimation { 
+      0% { 
+          opacity: 0; 
+      } 
+      100% { 
+          opacity: 1; 
+      }
+    } 
+  
+    @media only screen and (max-width: 600px) {
+      font-size: 1.7rem;
+      margin-top: 0px;
+      display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+    .number-about {
+        font-size: 1.4rem;
+        color: #007fff;
+    }
+}
