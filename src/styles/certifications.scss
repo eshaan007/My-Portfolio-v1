@@ -15,11 +15,25 @@
     color: #a6bdbf;
   //  text-align: left;
     margin-bottom: 5px;
+    font-size: 25px;
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+    }
+
 }
 
 .cert-desc {
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
+    font-size: 19px;
+
+    @media only screen and (max-width: 600px) {
+    
+        font-size: 13px;
+        }
+    
+    
   //  text-align: left;
 }
 
@@ -76,6 +90,7 @@
     max-width: 550px;
     margin: 20px;
     box-shadow: "0px 20px 30px 3px rgba(0, 0, 0, 0.55)";
+    
 
     @media only screen and (max-width: 600px) {
         
