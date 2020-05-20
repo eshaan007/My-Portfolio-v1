@@ -16,17 +16,112 @@
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
     @media only screen and (max-width: 600px) {
     
     font-size: 16px;
     }
 
+    &:hover {
+        color: #2a73cc;  
+        transition: all .3s ease-in-out;
+    }
+}
+
+.cert-name-pluralsight {
+
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+  //  text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+    }
+
+    &:hover {
+        color: #ed2265; 
+        transition: all .3s ease-in-out;
+    }
+}
+
+.cert-name-girlscript {
+
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+  //  text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+    }
+
+    &:hover {
+        color: #ea6f06;  
+        transition: all .3s ease-in-out;
+    }
+}
+
+.cert-name-udemy {
+
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+  //  text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+    }
+
+    &:hover {
+        color: #ea5252;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.cert-name-google {
+
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+  //  text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+    }
+
+    &:hover {
+        color: #f5ce07;
+        transition: all .3s ease-in-out;
+    }
 }
 
 .cert-desc {
     font-family: 'Roboto Mono', monospace;
     color: #ffffff;
     font-size: 19px;
+
+    &:hover{
+        color: #ffffff;
+    }
 
     @media only screen and (max-width: 600px) {
     
@@ -103,4 +198,5 @@
 
     }
 
+  
 }
