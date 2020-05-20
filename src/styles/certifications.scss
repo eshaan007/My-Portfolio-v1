@@ -142,7 +142,7 @@
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
    
     @keyframes fadeInAnimation { 
       0% { 
@@ -189,10 +189,9 @@
 
     @media only screen and (max-width: 600px) {
         
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         min-width: 300px;
         max-width: 360px;
-        margin: 0px;
         margin-left: auto;
         margin-right: auto;
 
