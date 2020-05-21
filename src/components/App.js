@@ -12,7 +12,7 @@ import Certifications from '../pages/certifications.js';
 class App extends Component {
   render() {
   return (
-    <div className="App">
+    <div id="top" className="App">
       <Head />
       <Navbar />
       <article className = "contain">

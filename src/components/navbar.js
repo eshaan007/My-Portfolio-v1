@@ -2,9 +2,6 @@ import React, { Component} from 'react';
 import '../styles/navbar.scss';
 import Resume from '../images/Eshaan_Khurana_Resume.pdf';
 import Fade from 'react-reveal/Fade';
-
-// import Logoblue from '../images/logo-blue.png';
-// import Logogrey from '../images/logo-grey.png';
 import Logowhite from '../images/logo-white-min.png';
 import Logolightblue from '../images/logo-lightblue-min.png';
  
@@ -37,7 +34,7 @@ class Navbar extends Component {
             <header className="header">
                 <Fade left>
 
-                <a href="/" className="logo"> 
+                <a href="#top" className="logo"> 
                 <div>
                   <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="logo"/>
                 </div> </a>
@@ -48,11 +45,11 @@ class Navbar extends Component {
                 <ul className="menu">
                 <Fade right>
                     <li> <a className="ind" href="#about-page"> About Me </a> </li>
-                    <li> <a className="ind" href="#skills-page"> Skills</a> </li>
+                    <li> <a className="ind" href="#skill-top"> Skills</a> </li>
                     <li> <a className="ind" href="/"> My Work</a> </li>
                     <li> <a className="ind" href="/"> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
-                        <li> <a className="res" href={Resume} target="_blank" rel="noopener noreferrer"> Resume</a> </li>
+                      <ul> <li> <a className="res" href={Resume} target="_blank" rel="noopener noreferrer"> Resume</a> </li> </ul> 
                     </button>
                 </Fade>            
                 </ul>
