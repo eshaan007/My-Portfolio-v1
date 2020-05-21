@@ -18,6 +18,7 @@
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) {
     
@@ -26,7 +27,6 @@
 
     &:hover {
         color: #2a73cc;  
-        transition: all .3s ease-in-out;
     }
 }
 
@@ -39,6 +39,8 @@
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+
 
     @media only screen and (max-width: 600px) {
     
@@ -47,7 +49,6 @@
 
     &:hover {
         color: #ed2265; 
-        transition: all .3s ease-in-out;
     }
 }
 
@@ -60,6 +61,8 @@
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+
 
     @media only screen and (max-width: 600px) {
     
@@ -68,7 +71,6 @@
 
     &:hover {
         color: #ea6f06;  
-        transition: all .3s ease-in-out;
     }
 }
 
@@ -81,6 +83,8 @@
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    transition: all .3s ease-in-out;
+
 
     @media only screen and (max-width: 600px) {
     
@@ -89,7 +93,6 @@
 
     &:hover {
         color: #ea5252;
-        transition: all .3s ease-in-out;
     }
 }
 
@@ -102,6 +105,7 @@
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+    transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) {
     
@@ -110,7 +114,6 @@
 
     &:hover {
         color: #f5ce07;
-        transition: all .3s ease-in-out;
     }
 }
 

@@ -3,8 +3,8 @@ import '../styles/navbar.scss';
 import Resume from '../images/Eshaan_Khurana_Resume.pdf';
 import Fade from 'react-reveal/Fade';
 
-import Logoblue from '../images/logo-blue.png';
-import Logogrey from '../images/logo-grey.png';
+// import Logoblue from '../images/logo-blue.png';
+// import Logogrey from '../images/logo-grey.png';
 import Logowhite from '../images/logo-white-min.png';
 import Logolightblue from '../images/logo-lightblue-min.png';
  
@@ -39,7 +39,7 @@ class Navbar extends Component {
 
                 <a href="/" className="logo"> 
                 <div>
-                  <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc}/>
+                  <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="logo"/>
                 </div> </a>
                 
                 </Fade>
@@ -52,7 +52,7 @@ class Navbar extends Component {
                     <li> <a className="ind" href="/"> My Work</a> </li>
                     <li> <a className="ind" href="/"> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
-                        <li> <a className="res" href={Resume} target="_blank"> Resume</a> </li>
+                        <li> <a className="res" href={Resume} target="_blank" rel="noopener noreferrer"> Resume</a> </li>
                     </button>
                 </Fade>            
                 </ul>

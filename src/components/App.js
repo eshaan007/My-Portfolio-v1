@@ -17,7 +17,7 @@ class App extends Component {
       <Navbar />
       <article className = "contain">
         <Fade bottom>
-        <h4 className="intro"> <span className="animate-hand">👋</span> Hi, my name is </h4>
+        <h4 className="intro"> <span className="animate-hand" role="img" aria-label="hand-wave">👋</span> Hi, my name is </h4>
         <Fade bottom cascade>
         <h2 className="name">Eshaan Khurana.</h2>
         </Fade>

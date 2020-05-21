@@ -42,7 +42,7 @@
     color: #a6bdbf;
     font-weight: normal;
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 23px;
     max-width: 600px;
     margin-inline-end: 100px;
     
@@ -62,7 +62,7 @@
     color: #a6bdbf;
     font-weight: bold;
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 33px;
     max-width: 600px;
     margin-inline-end: 150px;
 
@@ -118,6 +118,7 @@
 .bold-yellow {
     color: yellow;
     font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
 
     &:hover {
         color: rgb(255, 230, 0);
