@@ -22,7 +22,7 @@ class App extends Component {
         <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
         <h2 className="aftername"> I build amazing experiences.</h2>
-        <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design.
+        <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design..
           Here's my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👩🏻‍💻</h4>
         <p>
           <button className="arrow-link" target="_blank" rel="noopener noreferrer">
