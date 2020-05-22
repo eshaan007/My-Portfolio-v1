@@ -12,7 +12,7 @@ class About extends Component {
             <Fade bottom>        
                 <h3 className="heading"> <a className="number-about">01. </a>About Me </h3>
                 <h4 className="about-me-bold"> Hello! I am Eshaan Khurana. </h4>
-                <h4 className="about-me-bold"> I am a web developer leaning towards front end development and design.</h4>
+                <h4 className="about-me-bold"> I am a developer leaning towards front end web development and design.</h4>
                 <h4 className="about-me"> I am currently a 2nd year student at <a className="bold-blue">Indian Institute of Information Technology, Vadodara </a>pursuing B. Tech. in Information Technology.
                 I enjoy designing responsive websites using multiple frameworks and tools provided by <a className="bold-yellow"> JS. </a></h4>
 
