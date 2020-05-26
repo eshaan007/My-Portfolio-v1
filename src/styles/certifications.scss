@@ -223,7 +223,42 @@
     border: 1px solid #0a192f;
     border-radius: 4px;
     background-color: #08182e;
-    box-shadow: 5px 5px 3px #071120 ;
+    box-shadow: 6px 6px 3px #071120 ;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        box-shadow: 3px 3px 1px #071120 ;
+
+        .cert-name {
+            color: #2a73cc;  
+        }
+
+        .cert-name-pluralsight{
+            color: #ed2265; 
+
+        }
+
+        .cert-name-girlscript{
+            color: #ea6f06;  
+
+        }
+
+        .cert-name-udemy {
+            color: #ea5252;
+
+        }
+
+        .cert-name-google {
+            color: #f5ce07;
+
+        }
+
+        .cert-name-google1 {
+            color: #34a853;
+
+        }
+
+    }
     
     @media only screen and (max-width: 600px) {
         
