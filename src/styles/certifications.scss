@@ -25,6 +25,7 @@
     @media only screen and (max-width: 600px) {
     
     font-size: 16px;
+    color: #2a73cc; 
     }
 
     &:hover {
@@ -47,6 +48,7 @@
     @media only screen and (max-width: 600px) {
     
     font-size: 16px;
+    color: #ed2265; 
     }
 
     &:hover {
@@ -67,7 +69,7 @@
 
 
     @media only screen and (max-width: 600px) {
-    
+        color: #ea6f06; 
     font-size: 16px;
     }
 
@@ -90,6 +92,7 @@
 
     @media only screen and (max-width: 600px) {
     
+    color: #ea5252;
     font-size: 16px;
     }
 
@@ -112,12 +115,37 @@
     @media only screen and (max-width: 600px) {
     
     font-size: 16px;
+    color: #f5ce07;
     }
 
     &:hover {
         color: #f5ce07;
     }
 }
+
+.cert-name-google1 {
+
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+  //  text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+    color: #34a853;
+    }
+
+    &:hover {
+        color: #34a853;
+    }
+}
+
+
 
 .cert-desc {
     font-family: 'Roboto Mono', monospace;
@@ -131,6 +159,7 @@
     @media only screen and (max-width: 600px) {
     
         font-size: 13px;
+        color: #ffffff;
         }
     
     
@@ -159,6 +188,7 @@
     } 
   
     @media only screen and (max-width: 600px) {
+
       font-size: 1.7rem;
       margin-top: 0px;
       display: block;
@@ -186,12 +216,15 @@
 }
 
 .card {
-    min-width: 500px;
-    max-width: 550px;
-    margin: 20px;
-    box-shadow: "0px 20px 30px 3px rgba(0, 0, 0, 0.55)";
+    min-width: 400px;
+    max-width: 500px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #0a192f;
+    border-radius: 4px;
+    background-color: #08182e;
+    box-shadow: 5px 5px 3px #071120 ;
     
-
     @media only screen and (max-width: 600px) {
         
         margin-bottom: 15px;
@@ -199,5 +232,8 @@
         max-width: 360px;
         margin-left: auto;
         margin-right: auto;
+        padding: 10px;
+        box-shadow: 3px 3px 2px #071120 ;
     }
 }
+
