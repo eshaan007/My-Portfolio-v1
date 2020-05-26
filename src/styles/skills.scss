@@ -1,11 +1,13 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .logo {
-  width: 90px;
+  width: 84px;
   padding: 15px;
   transition: all .3s ease-in-out;
   margin: 10px;
   vertical-align: middle;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
 
   &:hover {
     filter: grayscale(0%);
@@ -13,7 +15,7 @@
 
   @media only screen and (max-width: 600px) {
     padding: 0px;
-    width: 68px;
+    width: 60px;
   }
 }
 
@@ -65,11 +67,13 @@
 
 .logo1 {
   width: 70px;
-  height: 140px;
+  height: 120px;
   padding: 20px;
   transition: all .3s ease-in-out;
   margin: 10px;
   vertical-align: middle;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
 
   &:hover {
     filter: grayscale(0%);
@@ -77,9 +81,10 @@
 
   @media only screen and (max-width: 600px) {
     padding: 0px;
-    width: 67px;
+    width: 60px;
     size: 70%;
     height: auto;
+    filter: grayscale(0%);
   }
 }
 
