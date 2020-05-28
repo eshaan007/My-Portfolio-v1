@@ -1,1 +1,2 @@
-Made with ❤️ using my current favourite JS framework/ library : ⚛️
+# My Portfolio
+Made with ❤️ using HTML, CSS, Javascript, ReactJS and deployed via Netlify.
