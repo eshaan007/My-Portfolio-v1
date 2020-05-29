@@ -10,4 +10,10 @@ Having a portfolio of my own was always something I personally wanted. But devel
 
 I would keep updating it as time passes by.
 
-Made with ❤️ by **EK** using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"> and deployed via Netlify. 
+Made with ❤️ by **EK** using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">.
+
+<p align="center">
+  <a href="https://app.netlify.com/sites/eshaankhurana/deploys">
+      <img src="https://api.netlify.com/api/v1/badges/2f1563cd-34c6-492b-8d6d-59d25b28045b/deploy-status" align="center">
+  </a>
+</p>
