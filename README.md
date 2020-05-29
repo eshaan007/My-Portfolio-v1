@@ -1,4 +1,7 @@
-![My Logo](/src/images/logo-blue.png)
+<p align="center">
+  <img width="70" height="140" src="/src/images/logo-blue.png" alt="My Logo">
+</p>
+<p align="center"> <strong> Eshaan Khurana </strong> </p>
 
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 # My Portfolio
