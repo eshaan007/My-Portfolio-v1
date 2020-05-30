@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="70" height="140" src="/src/images/logo-blue.png" alt="My Logo">
+  <img width="65" height="110" src="/src/images/logo-blue.png" alt="My Logo">
 </p>
 <h1 align="center"> <strong> Eshaan Khurana </strong> </h1>
 
