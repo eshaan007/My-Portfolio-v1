@@ -7,7 +7,10 @@
 
 Having a portfolio of my own was always something I personally wanted. But developing it on my own is **THE THING** I am proud of most *Right Now.*
 
-I would keep updating it as time passes by.
+<p>
+  I would keep updating it as time passes by. <strong>Do :star: the Repository if the design and template looks good!</strong>. Helps a lot for designing and developing many more beautiful websites !. Cheers!!
+</p>
+  
 <p align="center">
   Made with ❤️ by <strong>EK</strong> using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">.
 </p>
