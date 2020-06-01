@@ -11,7 +11,7 @@ import Flip from 'react-reveal/Flip';
         
         <div className="cont">
             <Flip cascade>
-                <h4 className="intro1"> Designed and Built from scratch by</h4>
+                <h4 className="intro1"> Designed and built from scratch by</h4>
                 <h4 className="intro1"> Eshaan Khurana </h4>
                 <h4 className="intro1"> © 2020</h4>
             </Flip>
