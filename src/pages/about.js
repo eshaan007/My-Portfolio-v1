@@ -22,9 +22,9 @@ class About extends Component {
                 I'm a keen learner who is always <a className="bold-white">looking for opportunities to absorb and work </a>with those who are willing to share their knowledge and experience.</h4>
                  */}
                 <h4 className="about-me">  <a className="bold-white"> When not in front of a computer,</a> you will probably find me playing my
-                    <a className="bold-brown"> guitar, </a> relishing
-                     music, watching football, blogging or enjoying 
-                    <a className="bold-green"> gaming sessions </a> with my friends.</h4>
+                    <a className="bold-brown"> 🎸, </a> relishing
+                    🎵🎧, watching ⚽, blogging👨‍💻 or enjoying 
+                    <a className="bold-green"> 🎮 sessions </a> with my friends.</h4>
             </Fade>    
             </div>
 
