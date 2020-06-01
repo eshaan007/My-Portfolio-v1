@@ -24,7 +24,7 @@ class About extends Component {
                 <h4 className="about-me">  <a className="bold-white"> When not in front of a computer,</a> you will probably find me playing my
                     <a className="bold-brown"> 🎸, </a> relishing
                     🎵🎧, watching ⚽, blogging👨‍💻 or enjoying 
-                    <a className="bold-green"> 🎮 sessions </a> with my friends.</h4>
+                    <a className="bold-green"> </a> 🎮 sessions  with my friends.</h4>
             </Fade>    
             </div>
 
