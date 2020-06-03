@@ -3,17 +3,17 @@
 </p>
 <h1 align="center"> <strong> Eshaan Khurana </strong> </h1>
 
-# My Portfolio
+## My Portfolio
 
 Having a portfolio of my own was always something I personally wanted. But developing it on my own is **THE THING** I am proud of most *Right Now.*
 
 <p>
-  I would keep updating it as time passes by. <strong>Do :star: the Repository if the design and template looks good!</strong>. Motivates me to design and develop many more beautiful websites !. Cheers!!
+  I would keep updating it as time passes by. <strong>Do :star: the Repository if the design and template looks good!</strong>. Motivates me to design and develop many more beautiful websites .. Cheers!!
 </p>
   
-<p align="center">
-  Made with ❤️ by <strong>EK</strong> using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">.
-</p>
+<h3 align="center">
+  Made with ❤️ by <strong>EK</strong> using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">
+</h3>
 
 <p align="center">
   <a href="https://app.netlify.com/sites/eshaankhurana/deploys">
