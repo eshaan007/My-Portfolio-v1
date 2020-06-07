@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 import '../styles/navbar.scss';
-import Resume from '../images/Eshaan_Khurana_Resume.pdf';
+import Resume from 'https://drive.google.com/file/d/1r18CD6B0_j1l0XWq8Dgd_DNz5u5iZ_yQ/view?usp=sharing';
 import Fade from 'react-reveal/Fade';
 import Logowhite from '../images/logo-white-min.png';
 import Logolightblue from '../images/logo-lightblue-min.png';
