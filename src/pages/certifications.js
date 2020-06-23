@@ -81,17 +81,20 @@ class Certifications extends Component {
                                 </Row>
                             </Column>
                             </Fade>
-                        
+
                             <Fade bottom>
                             <Column className="col1" flexGrow={1}>
-                                <Row wrap horizontal='center'>
-                                
-                                <div>
+                                <Row wrap horizontal='spaced'>
+  
                                     <Column className="card" flexGrow={1} horizontal='spaced'>
                                         <a className="cert-name-google" href="https://google.qwiklabs.com/public_profiles/be9c5216-ec84-405c-8537-40e46f73ab26" target="_blank" rel="noopener noreferrer">Explore ML Track : Intermediate Level</a>
                                         <a className="cert-desc">-Google</a>
                                     </Column>
-                                </div>
+
+                                    <Column className="card" flexGrow={1} horizontal='spaced'>
+                                        <a className="cert-name-udemy" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/certification/eshaan007/responsive-web-design">Responsive Web Design</a>
+                                        <a className="cert-desc">- freeCodeCamp.org</a>
+                                    </Column>
                                 </Row>
                             </Column>
                             </Fade>
