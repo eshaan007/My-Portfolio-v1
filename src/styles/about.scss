@@ -113,12 +113,16 @@
 .bold-blue {
     color: #007fff;
     font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+
 }
 
 .bold-yellow {
     color: yellow;
     font-weight: bold;
     font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+
 
     &:hover {
         color: rgb(255, 230, 0);
@@ -128,6 +132,8 @@
 .bold-white {
     color: white;
     font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+
 
     &:hover {
         color: white;
@@ -137,6 +143,8 @@
 .bold-brown {
     color: rgb(230, 149, 84);
     font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+
 
     &:hover {
         color: rgb(235, 169, 115);
@@ -146,6 +154,7 @@
 .bold-green {
     color: rgb(33, 236, 33);
     font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
 
     &:hover {
         color: rgb(33, 236, 33);
@@ -154,4 +163,8 @@
 
 #no-mob {
     display: block;
+}
+
+.number-about {
+    text-decoration: none;
 }
