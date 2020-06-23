@@ -92,7 +92,7 @@ class Certifications extends Component {
                                     </Column>
 
                                     <Column className="card" flexGrow={1} horizontal='spaced'>
-                                        <a className="cert-name-udemy" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/certification/eshaan007/responsive-web-design">Responsive Web Design</a>
+                                        <a className="cert-name-freecodecamp" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/certification/eshaan007/responsive-web-design">Responsive Web Design</a>
                                         <a className="cert-desc">- freeCodeCamp.org</a>
                                     </Column>
                                 </Row>

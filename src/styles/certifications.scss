@@ -131,6 +131,7 @@
     margin-bottom: 5px;
     font-size: 25px;
     font-weight: bold;
+
     text-decoration: none;
     transition: all .3s ease-in-out;
 
@@ -145,6 +146,27 @@
     }
 }
 
+.cert-name-freecodecamp {
+
+    font-family: 'Roboto Mono', monospace;
+    color: #a6bdbf;
+  //  text-align: left;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+
+    @media only screen and (max-width: 600px) {
+    
+    font-size: 16px;
+
+    }
+
+    &:hover {
+        color:#f5f6f7;
+    }
+}
 
 
 .cert-desc {
@@ -257,6 +279,10 @@
         .cert-name-google1 {
             color: #34a853;
 
+        }
+
+        .cert-name-freecodecamp {
+            color:#f5f6f7;
         }
 
     }
