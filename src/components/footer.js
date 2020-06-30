@@ -8,6 +8,8 @@ import Flip from 'react-reveal/Flip';
         // <a  href="https://www.netlify.com">
         //     <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
         // </a>
+
+        //BEWARE! This link will lead you to a geek's thoughts.
         
         <div className="cont">
             <Flip cascade>
@@ -16,8 +18,6 @@ import Flip from 'react-reveal/Flip';
                 <h4 className="intro1"> © 2020</h4>
             </Flip>
         </div>
-        
-
     );
 }
 }
