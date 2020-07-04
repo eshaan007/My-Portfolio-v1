@@ -11,7 +11,7 @@ class Contact extends Component {
     render() {
     return(
         <Fade bottom>
-            <div>
+            <div id="Contact-section">
                 <h2 className="cent-line"> I am available for any collabs and new ideas here : </h2>
                 <div className="logos">       
                     <a href="https://github.com/eshaan007/" target="_blank" rel="noopener noreferrer"><img className="logoc" src={github} alt="github"></img></a>

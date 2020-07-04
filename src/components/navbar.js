@@ -47,7 +47,7 @@ class Navbar extends Component {
                     <li> <a className="ind" href="#about-page"> About Me </a> </li>
                     <li> <a className="ind" href="#skill-top"> Skills</a> </li>
                     <li> <a className="ind" href="#top"> My Work</a> </li>
-                    <li> <a className="ind" href="#top"> Contact Me</a> </li>
+                    <li> <a className="ind" href="#Contact-section"> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
                       <li> <a className="res" href={Resume} target="_blank" rel="noopener noreferrer"> Resume</a> </li>
                     </button>
