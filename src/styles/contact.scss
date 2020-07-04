@@ -1,5 +1,5 @@
 .cent-line {
-    margin-top: 100px;
+    margin-top: 200px;
     color: #54D5BB;
     font-size: 2rem;
     font-family: 'Roboto Mono', monospace;
@@ -12,7 +12,7 @@
     }
   
     @media only screen and (max-width: 600px) {
-        font-size: 1.7rem;
+        font-size: 1.1rem;
         margin-top: 0px;
         display: block;
         margin-left: auto;
@@ -24,4 +24,22 @@
 .logos {
     display: block;
     text-align: center;
+}
+
+.logoc {
+    width: 50px;
+    padding: 15px;
+    transition: all .3s ease-in-out;
+    margin: 10px;
+    vertical-align: middle;
+
+    &:hover {
+        transition: all .3s ease-in-out;
+        color: #ffffff;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 0px;
+        width: 25px;
+    }
 }
