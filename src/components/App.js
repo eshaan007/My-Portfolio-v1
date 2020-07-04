@@ -6,6 +6,7 @@ import avatar from '../images/avataaar.png';
 import About from '../pages/about.js';
 import Skills from '../pages/skills.js';
 import Footer from '../components/footer.js';
+import Contact from '../pages/contact.js';
 import Fade from 'react-reveal/Fade';
 import Certifications from '../pages/certifications.js';
 
@@ -39,6 +40,7 @@ class App extends Component {
       <About />
       <Skills />
       <Certifications />
+      <Contact/>
       <Footer />
     </div>
   );

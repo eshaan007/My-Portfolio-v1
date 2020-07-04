@@ -7,7 +7,8 @@ class Contact extends Component {
     return(
         <Fade bottom>
             <div>
-
+                <h2 className="cent-line"> I am available for any collabs and new ideas here : </h2>
+                
             </div>
         </Fade>
     );
