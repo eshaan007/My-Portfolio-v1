@@ -1,6 +1,6 @@
 .cent-line {
     margin-top: 100px;
-    color: rgb(84, 213, 187);
+    color: #54D5BB;
     font-size: 2rem;
     font-family: 'Roboto Mono', monospace;
     transition: color .2s ease-out;
@@ -19,4 +19,9 @@
         margin-right: auto;
         width: 95%;
     }
+}
+
+.logos {
+    display: block;
+    text-align: center;
 }
