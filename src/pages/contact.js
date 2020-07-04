@@ -12,7 +12,7 @@ class Contact extends Component {
     return(
         <Fade bottom>
             <div id="Contact-section">
-                <h2 className="cent-line"> I am available for any collabs and new ideas here : </h2>
+                <h2 className="cent-line"> I am available for any new collabs, opportunities and ideas here : </h2>
                 <div className="logos">       
                     <a href="https://github.com/eshaan007/" target="_blank" rel="noopener noreferrer"><img className="logoc" src={github} alt="github"></img></a>
                     <a href="mailto:eshaany2k@gmail.com" target="_blank" rel="noopener noreferrer"><img className="logoc" src={gmail} alt="gmail"></img></a>
