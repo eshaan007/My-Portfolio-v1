@@ -94,8 +94,7 @@
   }
 
 .me {
-    // -webkit-filter: drop-shadow(5px 5px 5px #222);
-//   filter: drop-shadow(5px 5px 5px #222);
+  
     display: inline-block;
     vertical-align : 30px;
     width: 300px;
@@ -114,7 +113,7 @@
     color: #007fff;
     font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
-
+    font-weight: bold;
 }
 
 .bold-yellow {
