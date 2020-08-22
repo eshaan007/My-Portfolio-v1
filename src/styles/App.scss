@@ -69,7 +69,6 @@ body {
 
 $link-color: #2bbc8a; // slateblue
 // $link-color: #303C55; // picasso blue
-// $link-color: rgba(0, 127, 225, 0.75);
 
 article {
   //margin-left: 30px;
@@ -142,7 +141,7 @@ article {
       position: relative;
       bottom: 0.2ex;
       margin-left: 10px;
-      border: 2px solid #007FFF;
+      border: 2px solid $link-color;
       color: $link-color;
       font-family: "FontAwesome";
       font-size: 1.5rem;
@@ -153,8 +152,8 @@ article {
 
     &:hover {
       transition: all .3s ease-in-out;
-      background-color: rgba(100, 180, 255, 0.07);
-      color: #007FFF;
+      background-color: rgba(101, 248, 224, 0.07);
+      color: $link-color;
     }
 
     &:hover:after {
@@ -217,6 +216,7 @@ article {
 .mail {
   transition: all .3s ease-in-out;
   text-decoration: none;
+  color: $link-color;
 }
 
 

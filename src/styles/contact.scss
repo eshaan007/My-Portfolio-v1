@@ -1,6 +1,8 @@
+$link-color: #2bbc8a; // slateblue
+
 .cent-line {
     margin-top: 200px;
-    color: #54D5BB;
+    color: $link-color;
     font-size: 2rem;
     font-family: 'Roboto Mono', monospace;
     transition: color .2s ease-out;
@@ -8,7 +10,7 @@
 
     &:hover {
         transition: all .3s ease-in-out;
-        color: #ffffff;
+        color: $link-color;
     }
   
     @media only screen and (max-width: 600px) {
