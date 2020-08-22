@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+$link-color: #2bbc8a; // slateblue
+
 .about-cert {
    // margin-left: 50px;
     flex: 1;
@@ -14,7 +16,7 @@
 
 .cert-name {
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -29,14 +31,14 @@
     }
 
     &:hover {
-        color: #2a73cc;  
+        color: $link-color;  
     }
 }
 
 .cert-name-pluralsight {
 
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -52,14 +54,14 @@
     }
 
     &:hover {
-        color: #ed2265; 
+        color: #a3a3a3; 
     }
 }
 
 .cert-name-girlscript {
 
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -74,14 +76,14 @@
     }
 
     &:hover {
-        color: #ea6f06;  
+        color: #a3a3a3;  
     }
 }
 
 .cert-name-udemy {
 
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -97,14 +99,14 @@
     }
 
     &:hover {
-        color: #ea5252;
+        color: #a3a3a3;
     }
 }
 
 .cert-name-google {
 
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -126,7 +128,7 @@
 .cert-name-google1 {
 
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -149,7 +151,7 @@
 .cert-name-freecodecamp {
 
     font-family: 'Roboto Mono', monospace;
-    color: #a6bdbf;
+    color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 25px;
@@ -218,12 +220,12 @@
       display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 95%;
+        width: 90%;
     }
 
     .number-about {
         font-size: 1.4rem;
-        color: #007fff;
+        color: $link-color;
     }
 }
 
@@ -244,46 +246,46 @@
     max-width: 500px;
     padding: 20px;
     margin: 10px;
-    border: 1px solid #0a192f;
+    border: 1px solid #1d1f21;
     border-radius: 4px;
-    background-color: #08182e;
-    box-shadow: 6px 6px 3px #071120 ;
+    background-color: #1e2124;
+    box-shadow: 6px 6px 3px #18191a ;
     transition: all .2s ease-in-out;
 
     &:hover {
-        box-shadow: 3px 3px 1px #071120 ;
+        box-shadow: 3px 3px 1px #161616 ;
 
         .cert-name {
-        color: #2a73cc;  
+        color: $link-color;  
         }
 
         .cert-name-pluralsight{
-            color: #ed2265; 
+            color: $link-color; 
 
         }
 
         .cert-name-girlscript{
-            color: #ea6f06;  
+            color: $link-color;  
 
         }
 
         .cert-name-udemy {
-            color: #ea5252;
+            color:$link-color;
 
         }
 
         .cert-name-google {
-            color: #f5ce07;
+            color: $link-color;
 
         }
 
         .cert-name-google1 {
-            color: #34a853;
+            color: $link-color;
 
         }
 
         .cert-name-freecodecamp {
-            color:#f5f6f7;
+            color:$link-color;
         }
 
     }
@@ -296,7 +298,7 @@
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        box-shadow: 3px 3px 2px #071120 ;
+        box-shadow: 3px 3px 2px #161616 ;
     }
 }
 
