@@ -22,7 +22,7 @@ class App extends Component {
         <Fade bottom cascade>
         <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
-        <h2 className="aftername"> I build amazing experiences.</h2>
+        <h2 className="aftername"> I Build and Blog Technology.</h2>
         <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design..
           Here's my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👨‍💻</h4>
         <p>

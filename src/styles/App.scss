@@ -67,7 +67,7 @@ body {
 
   @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700&display=swap');
 
-$link-color: #007FFF; // slateblue
+$link-color: #2bbc8a; // slateblue
 // $link-color: #303C55; // picasso blue
 // $link-color: rgba(0, 127, 225, 0.75);
 
@@ -95,7 +95,7 @@ article {
 
   .highlight-link {
     text-decoration: none;
-    color: #9ab1c4;
+    color: #ffffff;
     display: inline-block;
     padding: 0px 7px;
     transition: all .2s ease-in-out;
@@ -111,10 +111,10 @@ article {
 
 
   .arrow-link {
-    color: #007FFF; 
+    color: #2bbc8a; 
     //background-color: #0a192f;
     font-weight: bold;
-    border: #007FFF;
+    border: #2bbc8a;
     font-family: 'Roboto Mono', monospace;
     padding: 15px 32px;
     text-align: center;
@@ -126,9 +126,9 @@ article {
     border-radius: 4px;
     transition: all .3s ease-in-out;
 
-    background-color: #0a192f;
-    color: #007FFF; 
-    border: 2px solid #007FFF;
+    background-color: #1d1f21;
+    color: #2bbc8a; 
+    border: 2px solid #2bbc8a;
 
     @media only screen and (max-width: 600px) {
       
@@ -179,7 +179,7 @@ article {
 .name {
   color: #ffffff;
   //margin-top: -20px;
-  margin-left: -4px;
+  margin-left: -3px;
   font-size: 4rem;
 
   @media only screen and (max-width: 600px) {
@@ -191,7 +191,7 @@ article {
 .aftername {
   margin-top: -10px;
   font-size: 4rem;
-  color: #a6bdbf;
+  color: #666666;
   
   @media only screen and (max-width: 600px) {
     font-size: 2.1rem;
@@ -204,7 +204,7 @@ article {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.5rem;
   margin-inline-end: 600px;
-  color: #a6bdbf;
+  color: #a3a3a3;
   font-weight: lighter;
 
   @media only screen and (max-width: 600px) {
