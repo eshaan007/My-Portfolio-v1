@@ -31,13 +31,14 @@
 //         color: #007FFF;
 //     }
 // }
+$link-color: #2bbc8a; // slateblue
 
 a {
     color: #ffffff;
     font-family: 'Roboto Mono', monospace;
 
     &:hover {
-        color: #007fff;    
+        color: $link-color;    
     }
 
   }
@@ -49,7 +50,7 @@ a {
     
     transition: top 0.5s;
   //  margin-left: 15px;
-    background-color: #0a192f;
+    background-color: #1d1f21;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
      max-width: 1267px;
      position: fixed;
@@ -70,7 +71,6 @@ a {
     padding: 0;
     list-style: none;
     overflow: hidden;
-  //  background-color: #0a192f;
   }
   
   .header li a {
@@ -81,7 +81,6 @@ a {
   
   .header li a:hover,
   .header .menu-btn:hover {
-//    background-color: #0a192f;
   }
   
   .header .logo {
@@ -201,18 +200,18 @@ a {
   
 
   .resume {
-    color: #007FFF; 
+    color: $link-color; 
     font-weight: bold;
-    border: #007FFF;
+    border: $link-color;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
 
-    background-color: #0a192f;
-    color: #007FFF; 
-    border: 2px solid #007FFF;
+    background-color: #1d1f21;
+    color: $link-color; 
+    border: 2px solid $link-color;
     border-radius: 4px;
     transition: all .3s ease-in-out;
 
@@ -224,8 +223,8 @@ a {
     &:after {
       position: relative;
       bottom: 0.2ex;
-      border: 2px solid #007FFF;
-      color: #007fff;
+      border: 2px solid $link-color;
+      color: $link-color;
       font-family: "FontAwesome";
       font-size: 1.5rem;
       display: inline-block;
@@ -236,7 +235,7 @@ a {
     &:hover {
       transition: all .3s ease-in-out;
       background-color: rgba(100, 180, 255, 0.07);
-      color: #007FFF;
+      color: $link-color;
     }
 
     &:hover:after {

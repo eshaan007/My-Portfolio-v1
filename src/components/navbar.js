@@ -3,14 +3,13 @@ import '../styles/navbar.scss';
 import Resume from '../images/Eshaan_Khurana_Resume.pdf';
 import Fade from 'react-reveal/Fade';
 import Logowhite from '../images/logo-white-min.png';
-import Logolightblue from '../images/logo-lightblue-min.png';
  
 class Navbar extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-           imgSrc: Logolightblue
+           imgSrc: Logowhite
         };
         this.handleMouseOver = this.handleMouseOver.bind(this);
         this.handleMouseOut = this.handleMouseOut.bind(this);
@@ -24,7 +23,7 @@ class Navbar extends Component {
     
       handleMouseOut() {
         this.setState({
-          imgSrc: Logolightblue
+          imgSrc: Logowhite
         });
       }
 

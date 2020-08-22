@@ -1,5 +1,7 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
+$link-color: #2bbc8a; // slateblue
+
 .logo {
   width: 84px;
   padding: 15px;
@@ -34,7 +36,7 @@
 
 .about-me-bold1 {
   font-family: "Source Sans Pro", sans-serif;
-  color: #a6bdbf;
+  color: #a3a3a3;
   font-weight: bold;
   margin-left: 50px;
   font-size: 30px;
