@@ -21,8 +21,9 @@ $link-color: #2bbc8a; // slateblue
   }
 
   @media only screen and (max-width: 600px) {
-    padding: 0px;
     width: 60px;
+    padding: 0px;
+    margin: 10px;
   }
 }
 
