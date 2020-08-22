@@ -1,7 +1,13 @@
 $link-color: #2bbc8a; // slateblue
-
+@font-face {
+    font-style: normal;
+    font-family: "Meslo LG";
+    src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+  }
+  
 .intro1 {
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     font-size: 1.1rem;
     align-items: center;
     font-weight: normal;

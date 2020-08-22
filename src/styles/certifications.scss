@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+@font-face {
+    font-style: normal;
+    font-family: "Meslo LG";
+    src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+  }
+  
+
 $link-color: #2bbc8a; // slateblue
 
 .about-cert {
@@ -15,18 +22,19 @@ $link-color: #2bbc8a; // slateblue
 // media="print" onload="this.media='all'
 
 .cert-name {
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) {
     
-    font-size: 16px;
+    font-size: 1rem;
 
     }
 
@@ -37,11 +45,12 @@ $link-color: #2bbc8a; // slateblue
 
 .cert-name-pluralsight {
 
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
@@ -49,7 +58,7 @@ $link-color: #2bbc8a; // slateblue
 
     @media only screen and (max-width: 600px) {
     
-    font-size: 16px;
+    font-size: 1rem;
 
     }
 
@@ -60,11 +69,12 @@ $link-color: #2bbc8a; // slateblue
 
 .cert-name-girlscript {
 
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
@@ -72,7 +82,7 @@ $link-color: #2bbc8a; // slateblue
 
     @media only screen and (max-width: 600px) {
 
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     &:hover {
@@ -82,11 +92,12 @@ $link-color: #2bbc8a; // slateblue
 
 .cert-name-udemy {
 
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
@@ -95,7 +106,7 @@ $link-color: #2bbc8a; // slateblue
     @media only screen and (max-width: 600px) {
     
 
-    font-size: 16px;
+    font-size: 1rem;
     }
 
     &:hover {
@@ -105,18 +116,19 @@ $link-color: #2bbc8a; // slateblue
 
 .cert-name-google {
 
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) {
     
-    font-size: 16px;
+    font-size: 1rem;
 
     }
 
@@ -127,11 +139,12 @@ $link-color: #2bbc8a; // slateblue
 
 .cert-name-google1 {
 
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
 
     text-decoration: none;
@@ -139,7 +152,7 @@ $link-color: #2bbc8a; // slateblue
 
     @media only screen and (max-width: 600px) {
     
-    font-size: 16px;
+    font-size: 1rem;
 
     }
 
@@ -150,18 +163,19 @@ $link-color: #2bbc8a; // slateblue
 
 .cert-name-freecodecamp {
 
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) {
     
-    font-size: 16px;
+    font-size: 1rem;
 
     }
 
@@ -172,9 +186,10 @@ $link-color: #2bbc8a; // slateblue
 
 
 .cert-desc {
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #ffffff;
-    font-size: 19px;
+    font-size: 0.9rem;
     text-decoration: none;
 
     &:hover{
@@ -197,7 +212,8 @@ $link-color: #2bbc8a; // slateblue
     //margin-top: -20px;
    // margin-left: 50px;
     font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
@@ -215,7 +231,7 @@ $link-color: #2bbc8a; // slateblue
   
     @media only screen and (max-width: 600px) {
 
-      font-size: 1.7rem;
+      font-size: 1.3rem;
       margin-top: 0px;
       display: block;
         margin-left: auto;

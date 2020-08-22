@@ -1,9 +1,14 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 $link-color: #2bbc8a; // slateblue
+@font-face {
+  font-style: normal;
+  font-family: "Meslo LG";
+  src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+}
 
 .logo {
-  width: 84px;
+  width: 70px;
   padding: 15px;
   transition: all .3s ease-in-out;
   margin: 10px;
@@ -35,16 +40,17 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .about-me-bold1 {
-  font-family: "Source Sans Pro", sans-serif;
+  // font-family: "Source Sans Pro", sans-serif;
+  font-family: "Menlo", "Meslo LG", monospace;
   color: #a3a3a3;
   font-weight: bold;
   margin-left: 50px;
-  font-size: 30px;
+  font-size: 1.3rem;
   max-width: 1000px;
   margin-inline-end: 150px;
 
   @media only screen and (max-width: 600px) {
-      font-size: 23px;
+      font-size: 1.05rem;
       display: block;
       margin-left: auto;
       margin-right: auto;

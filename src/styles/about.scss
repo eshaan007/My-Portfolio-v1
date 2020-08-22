@@ -9,8 +9,9 @@ $link-color: #2bbc8a; // slateblue
     color: #ffffff;
     //margin-top: -20px;
     margin-left: 50px;
-    font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
@@ -25,7 +26,7 @@ $link-color: #2bbc8a; // slateblue
     } 
   
     @media only screen and (max-width: 600px) {
-      font-size: 1.7rem;
+      font-size: 1rem;
       margin-top: 0px;
       display: block;
         margin-left: auto;
@@ -34,22 +35,23 @@ $link-color: #2bbc8a; // slateblue
     }
 
     .number-about {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: $link-color;
     }
 }
 
 .about-me {
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
     font-weight: lighter;
     margin-left: 50px;
-    font-size: 23px;
+    font-size: 18px;
     max-width: 600px;
     margin-inline-end: 100px;
     
     @media only screen and (max-width: 600px) {
-        font-size: 17px;
+        font-size: 0.9rem;
        // margin-inline-end: 0px;
        // margin-left: 20px;
        display: block;
@@ -60,16 +62,17 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .about-me-bold {
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     color: #a3a3a3;
     font-weight: bold;
     margin-left: 50px;
-    font-size: 33px;
+    font-size: 1.4rem;
     max-width: 600px;
     margin-inline-end: 150px;
 
     @media only screen and (max-width: 600px) {
-        font-size: 23px;
+        font-size: 1.1rem;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -100,7 +103,7 @@ $link-color: #2bbc8a; // slateblue
     display: inline-block;
     vertical-align : 30px;
     width: 300px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     margin-left: 100px;
 
     @media only screen and (max-width: 600px) {
@@ -114,7 +117,8 @@ $link-color: #2bbc8a; // slateblue
 
 .bold-blue {
     color: $link-color;
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-decoration: none;
     font-weight: bold;
 }
@@ -122,7 +126,8 @@ $link-color: #2bbc8a; // slateblue
 .bold-yellow {
     color: yellow;
     font-weight: bold;
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-decoration: none;
 
 
@@ -133,7 +138,8 @@ $link-color: #2bbc8a; // slateblue
 
 .bold-white {
     color: white;
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-decoration: none;
 
 
@@ -144,7 +150,8 @@ $link-color: #2bbc8a; // slateblue
 
 .bold-brown {
     color: rgb(230, 149, 84);
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-decoration: none;
 
 
@@ -155,7 +162,8 @@ $link-color: #2bbc8a; // slateblue
 
 .bold-green {
     color: rgb(33, 236, 33);
-    font-family: "Source Sans Pro", sans-serif;
+    // font-family: "Source Sans Pro", sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-decoration: none;
 
     &:hover {

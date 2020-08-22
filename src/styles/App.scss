@@ -1,3 +1,9 @@
+@font-face {
+  font-style: normal;
+  font-family: "Meslo LG";
+  src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+}
+
 body {
     margin: 0;
     background-color: #1d1f21;
@@ -29,11 +35,14 @@ body {
     padding-top: 0;
     margin-bottom: 1.45rem;
     color: inherit;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    font-family: "Menlo", "Meslo LG", monospace;
+
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 1.1;
   }
   h2 {
@@ -74,7 +83,8 @@ article {
   max-width: 1000px;
   margin-top: 140px;
   padding: 12px;
-  font-family: "Source Sans Pro", sans-serif;
+  // font-family: "Source Sans Pro", sans-serif;
+  font-family: "Menlo", "Meslo LG", monospace;
   color: #36363C;
 
   @media only screen and (max-width: 600px) {
@@ -88,7 +98,7 @@ article {
   h1 {
     font-weight: 300;
     line-height: 1.5;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 
   .highlight-link {
@@ -113,7 +123,8 @@ article {
     //background-color: #0a192f;
     font-weight: bold;
     border: #2bbc8a;
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -142,7 +153,8 @@ article {
       margin-left: 10px;
       border: 2px solid $link-color;
       color: $link-color;
-      font-family: "FontAwesome";
+      // font-family: "FontAwesome";
+      font-family: "Menlo", "Meslo LG", monospace;
       font-size: 1.5rem;
       display: inline-block;
       vertical-align: middle;
@@ -166,7 +178,8 @@ article {
 .intro {
   margin-top: 100px;
   color: $link-color;
-  font-family: 'Roboto Mono', monospace;
+  // font-family: 'Roboto Mono', monospace;
+  font-family: "Menlo", "Meslo LG", monospace;
   font-size: 1.3rem;
   @media only screen and (max-width: 600px) {
     margin-top: 10px;
@@ -178,29 +191,30 @@ article {
   color: #ffffff;
   //margin-top: -20px;
   margin-left: -3px;
-  font-size: 4rem;
+  font-size: 3.2rem;
 
   @media only screen and (max-width: 600px) {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     margin-left: 0px;
   }
 }
 
 .aftername {
   margin-top: -10px;
-  font-size: 4rem;
+  font-size: 3rem;
   color: #666666;
   
   @media only screen and (max-width: 600px) {
-    font-size: 2.1rem;
+    font-size: 1.6rem;
   }
 }
 
 .desc {
   margin-top: 50px;
   //font-family: 'Abel', sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.5rem;
+  // font-family: "Source Sans Pro", sans-serif;
+  font-family: "Menlo", "Meslo LG", monospace;
+  font-size: 1.3rem;
   margin-inline-end: 600px;
   color: #a3a3a3;
   font-weight: lighter;
@@ -208,7 +222,7 @@ article {
   @media only screen and (max-width: 600px) {
     margin-top: 30px;
     margin-inline-end: 0px;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@font-face {
+  font-style: normal;
+  font-family: "Meslo LG";
+  src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+}
 
 // .color-nav {
 //     background-color: #0a192f;
@@ -35,7 +40,8 @@ $link-color: #2bbc8a; // slateblue
 
 a {
     color: #ffffff;
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
 
     &:hover {
         color: $link-color;    
@@ -203,7 +209,8 @@ a {
     color: $link-color; 
     font-weight: bold;
     border: $link-color;
-    font-family: 'Roboto Mono', monospace;
+    // font-family: 'Roboto Mono', monospace;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -225,7 +232,8 @@ a {
       bottom: 0.2ex;
       border: 2px solid $link-color;
       color: $link-color;
-      font-family: "FontAwesome";
+      // font-family: "FontAwesome";
+      font-family: "Menlo", "Meslo LG", monospace;
       font-size: 1.5rem;
       display: inline-block;
       vertical-align: middle;
