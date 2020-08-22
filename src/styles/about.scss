@@ -98,23 +98,6 @@ $link-color: #2bbc8a; // slateblue
       }
   }
 
-.me {
-  
-    display: inline-block;
-    vertical-align : 30px;
-    width: 300px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-
-    @media only screen and (max-width: 600px) {
-
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 45%;
-    }
-}
-
 .bold-blue {
     color: $link-color;
     // font-family: "Source Sans Pro", sans-serif;

@@ -280,3 +280,21 @@ article {
      50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
     100% { transform: rotate(  0.0deg) }
   }
+
+
+  
+.me {
+  
+  display: inline-block;
+  vertical-align : 30px;
+  width: 248px;
+  margin-bottom: 30px;
+
+  @media only screen and (max-width: 600px) {
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 45%;
+  }
+}

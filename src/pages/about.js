@@ -26,7 +26,7 @@ class About extends Component {
             </div>
 
             <Fade bottom>  
-            <img className="me" src = {me} alt="Eshaan"/>
+            {/* <img className="me" src = {me} alt="Eshaan"/> */}
             </Fade> 
         </div>
         
