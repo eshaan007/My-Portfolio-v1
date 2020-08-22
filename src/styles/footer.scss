@@ -1,3 +1,5 @@
+$link-color: #2bbc8a; // slateblue
+
 .intro1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.1rem;
@@ -6,7 +8,7 @@
     line-height: 0px;
     text-align: center;
     display: block;
-    color: rgb(84, 213, 187);
+    color: $link-color;
 
     @media only screen and (max-width: 600px) {
       margin-top: 10px;
@@ -29,6 +31,6 @@
     }
 
     &:hover {
-        color: #007fff;
+        color: $link-color;
     }
 }
