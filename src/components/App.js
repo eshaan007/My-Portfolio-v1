@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../styles/App.scss';
 import Head from './head.js';
 import Navbar from './navbar.js';
-import avatar from '../images/avataaar.png';
 import About from '../pages/about.js';
 import Skills from '../pages/skills.js';
 import Footer from '../components/footer.js';
@@ -24,7 +23,7 @@ class App extends Component {
         <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
         <h2 className="aftername"> I Build and Blog Technology</h2>
-        <h4 className="desc">I'm a Full Stack Web Developer, Specializing in Front-End Development and Design..
+        <h4 className="desc">I'm a Front-End Web Developer, Specializing in Development and Design..
           Here's my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👨‍💻</h4>
         <p>
           <button className="arrow-link" target="_blank" rel="noopener noreferrer">
@@ -36,7 +35,6 @@ class App extends Component {
         </Fade>
       </article> 
       <Fade bottom>
-      {/* <img className="myavatar" src = {avatar} alt="Avatar"/> */}
       <img className="me" src = {me} alt="Eshaan"/>
       </Fade>
       <About />

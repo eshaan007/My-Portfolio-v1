@@ -24,7 +24,7 @@ $link-color: #2bbc8a; // slateblue
 .cert-name {
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -47,7 +47,7 @@ $link-color: #2bbc8a; // slateblue
 
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -63,7 +63,7 @@ $link-color: #2bbc8a; // slateblue
     }
 
     &:hover {
-        color: #a3a3a3; 
+        color: #ffffff; 
     }
 }
 
@@ -71,7 +71,7 @@ $link-color: #2bbc8a; // slateblue
 
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -86,7 +86,7 @@ $link-color: #2bbc8a; // slateblue
     }
 
     &:hover {
-        color: #a3a3a3;  
+        color: #ffffff;  
     }
 }
 
@@ -94,7 +94,7 @@ $link-color: #2bbc8a; // slateblue
 
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -110,7 +110,7 @@ $link-color: #2bbc8a; // slateblue
     }
 
     &:hover {
-        color: #a3a3a3;
+        color: #ffffff;
     }
 }
 
@@ -118,7 +118,7 @@ $link-color: #2bbc8a; // slateblue
 
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -141,7 +141,7 @@ $link-color: #2bbc8a; // slateblue
 
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -165,7 +165,7 @@ $link-color: #2bbc8a; // slateblue
 
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
     font-size: 1.2rem;
@@ -188,12 +188,12 @@ $link-color: #2bbc8a; // slateblue
 .cert-desc {
     // font-family: 'Roboto Mono', monospace;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #ffffff;
+    color: #a3a3a3;
     font-size: 0.9rem;
     text-decoration: none;
 
     &:hover{
-        color: #ffffff;
+        color: #a3a3a3;
     }
 
     @media only screen and (max-width: 600px) {
