@@ -15,6 +15,24 @@ class Certifications extends Component {
                     <div className="logo-container">       
 
                         <div className="about-cert">
+
+                        <Fade bottom>
+                            <Column className="col1" flexGrow={1}>
+                                <Row wrap horizontal='spaced'>
+  
+                                    <Column className="card" flexGrow={1} horizontal='spaced'>
+                                        <a className="cert-name" href="https://www.coursera.org/account/accomplishments/records/F2ANEUUPSBM3" target="_blank" rel="noopener noreferrer" >Smart Contracts</a>
+                                        <a className="cert-desc" href="https://www.coursera.org/account/accomplishments/records/F2ANEUUPSBM3">- The University of Buffalo </a>
+                                    </Column>
+
+                                    <Column className="card" flexGrow={1} horizontal='spaced'>
+                                        <a className="cert-name-udemy" target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/account/accomplishments/verify/VE5Q6NGQQ3M4?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">Blockchain Basics</a>
+                                        <a className="cert-desc" href="https://www.coursera.org/account/accomplishments/verify/VE5Q6NGQQ3M4?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">- The University of Buffalo</a>
+                                    </Column>
+                                </Row>
+                            </Column>
+                            </Fade>
+
                             <Fade bottom>
                             <Column className="col1" flexGrow={1}>
                                 <Row wrap horizontal='spaced'>
