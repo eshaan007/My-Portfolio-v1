@@ -1,6 +1,5 @@
 import React, { Component} from 'react';
 import '../styles/about.scss';
-import me from '../images/me-code-4.png';
 import Fade from 'react-reveal/Fade';
 
 class About extends Component {
@@ -25,9 +24,6 @@ class About extends Component {
             </Fade>    
             </div>
 
-            <Fade bottom>  
-            {/* <img className="me" src = {me} alt="Eshaan"/> */}
-            </Fade> 
         </div>
         
     );
