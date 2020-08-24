@@ -83,7 +83,7 @@ article {
   //margin-left: 30px;
   max-width: 1000px;
   margin-top: 140px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
   padding: 12px;
   // font-family: "Source Sans Pro", sans-serif;
   font-family: "Menlo", "Meslo LG", monospace;
@@ -91,6 +91,7 @@ article {
 
   @media only screen and (max-width: 600px) {
     margin-top: 120px;
+    margin-bottom: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;

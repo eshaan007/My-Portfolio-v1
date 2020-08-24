@@ -51,7 +51,7 @@ $link-color: #2bbc8a; // slateblue
     margin-inline-end: 100px;
     
     @media only screen and (max-width: 600px) {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
        // margin-inline-end: 0px;
        // margin-left: 20px;
        display: block;
@@ -67,6 +67,12 @@ $link-color: #2bbc8a; // slateblue
     font-size: 14px;
     margin-bottom: 8px;
     margin-left: 50px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 0.8rem;
+       // margin-inline-end: 0px;
+        margin-left: 0px;
+     }
 }
 
 .about-me-bold {
@@ -85,6 +91,7 @@ $link-color: #2bbc8a; // slateblue
         margin-left: auto;
         margin-right: auto;
         width: 95%;
+        margin-bottom: 10px;
     }
 }
 
@@ -172,8 +179,34 @@ $link-color: #2bbc8a; // slateblue
 
 .am-size{
     max-width: 1400px;
+    @media only screen and (max-width: 600px) {
+        
+    }
+
 }
 
 .am-1 {
     margin-bottom: 40px;
+    @media only screen and (max-width: 600px) {
+
+    }
+
+
+}
+
+.about-column-1,.about-column-2,.about-column-3 {
+    
+    @media only screen and (max-width: 600px) {
+    
+        margin-bottom: 25px;
+         margin-left: auto;
+         margin-right: auto;
+        width: 95%;
+        display: block;
+
+        #no-mob {
+            display: none;
+        }
+
+    }
 }
