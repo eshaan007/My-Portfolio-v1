@@ -82,8 +82,8 @@ $link-color: #2bbc8a; // slateblue
     font-weight: bolder;
     margin-left: 50px;
     font-size: 1.6rem;
-    max-width: 600px;
-    margin-inline-end: 150px;
+    max-width: 350px;
+    // margin-inline-end: 150px;
 
     @media only screen and (max-width: 600px) {
         font-size: 1.1rem;
@@ -197,6 +197,8 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .about-column-1,.about-column-2,.about-column-3 {
+
+    max-width: 600px;
     
     @media only screen and (max-width: 600px) {
     
