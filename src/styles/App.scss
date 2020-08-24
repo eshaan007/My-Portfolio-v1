@@ -83,7 +83,7 @@ article {
   //margin-left: 30px;
   max-width: 1000px;
   margin-top: 140px;
-  margin-bottom: 200px;
+  margin-bottom: 30px;
   padding: 12px;
   // font-family: "Source Sans Pro", sans-serif;
   font-family: "Menlo", "Meslo LG", monospace;
@@ -237,25 +237,6 @@ article {
 
 .contain {
   display: inline-block;
-}
-
-.myavatar {
-  -webkit-filter: drop-shadow(5px 5px 5px #ffffff);
-  filter: drop-shadow(5px 5px 5px #222);
-  display: inline-block;
-  vertical-align : middle;
-  width: 200px;
-  margin-bottom: 450px;
-  margin-left: 20px;
-
-    @media only screen and (max-width: 600px) {
-
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 120px;
-      width: 35%;
-    }
 }
 
 
