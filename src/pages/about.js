@@ -2,6 +2,7 @@ import React, { Component} from 'react';
 import '../styles/about.scss';
 import Fade from 'react-reveal/Fade';
 import { Column, Row } from 'simple-flexbox';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class About extends Component {
     render() {
@@ -26,9 +27,11 @@ class About extends Component {
                         <Fade bottom>
 
                             <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold">Life so Far..</h4>     
+                                <h4 className="about-me-bold"> <FontAwesomeIcon icon={['far', 'heartbeat']} />  <FontAwesomeIcon icon="check-square" />
+                                    Life so Far...</h4>     
                                 <h4 className="about-me_bullet">• Breathing since 2000 </h4> 
-                                <h4 className="about-me_bullet">• Studying @ IIITV'22 </h4>         
+                                <h4 className="about-me_bullet">• Studying @ IIITV'22 </h4>
+                                <h4 className="about-me_bullet">• Being a Tech-Geek since 2010</h4>
                                 <h4 className="about-me_bullet">• Started Coding in 2018 </h4>         
                                 <h4 className="about-me_bullet">• Developing Websites ️ </h4>         
                                 <h4 className="about-me_bullet">• Contributing to OSS actively </h4>                 
@@ -37,13 +40,14 @@ class About extends Component {
                             <Fade bottom>
 
                             <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold">Passionate About..</h4>    
-                                <h4 className="about-me_bullet">• Playing Acoustic Guitars</h4>         
-                                <h4 className="about-me_bullet">• Producing Industry-Level Music</h4>         
-                                <h4 className="about-me_bullet">• Watching Football</h4>         
-                                <h4 className="about-me_bullet">• Blogging Tech</h4>         
-                                <h4 className="about-me_bullet">• Gaming Sessions</h4>  
-                                <h4 className="about-me_bullet">• Food</h4>                
+                                <h4 className="about-me-bold">Passionate About...</h4> 
+                                <h4 className="about-me_bullet">• Food</h4>                       
+                                <h4 className="about-me_bullet">• Acoustic Guitars</h4>     
+                                <h4 className="about-me_bullet">• Rock & Country Music</h4>         
+                                <h4 className="about-me_bullet">• Football</h4>        
+                                <h4 className="about-me_bullet">• Biographies</h4>          
+                                <h4 className="about-me_bullet">• Blogging</h4>         
+                                <h4 className="about-me_bullet">• Gaming</h4>  
 
                             </Column>
                             </Fade>    
@@ -51,7 +55,7 @@ class About extends Component {
                             <Fade bottom>
 
                             <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold">Learing..</h4>   
+                                <h4 className="about-me-bold">Learing...</h4>   
                                 <h4 className="about-me_bullet">• Ethereum DApps with Web3.js </h4>                 
                                 <h4 className="about-me_bullet">• AWS Cloud</h4>         
                                 <h4 className="about-me_bullet">• CI/CD</h4>         
