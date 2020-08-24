@@ -2,6 +2,7 @@
   font-style: normal;
   font-family: "Meslo LG";
   src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 body {
@@ -203,7 +204,7 @@ article {
 .aftername {
   margin-top: -10px;
   font-size: 3rem;
-  color: #666666;
+  color: #929191;
   
   @media only screen and (max-width: 600px) {
     font-size: 1.6rem;

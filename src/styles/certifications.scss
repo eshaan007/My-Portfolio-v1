@@ -6,6 +6,7 @@
     font-style: normal;
     font-family: "Meslo LG";
     src: local("Meslo LG S"), url("./MesloLGS-Regular.ttf") format("truetype");
+    font-display: swap;
   }
   
 
@@ -208,7 +209,7 @@ $link-color: #2bbc8a; // slateblue
 
 .heading-cert {
     margin-top: 100px;
-    color: #ffffff;
+    color: $link-color;
     //margin-top: -20px;
    // margin-left: 50px;
     font-size: 1.4rem;

@@ -6,7 +6,7 @@ $link-color: #2bbc8a; // slateblue
 
 .heading {
     margin-top: 100px;
-    color: #ffffff;
+    color: $link-color;
     //margin-top: -20px;
     margin-left: 50px;
     font-size: 1.4rem;
@@ -43,11 +43,11 @@ $link-color: #2bbc8a; // slateblue
 .about-me {
     // font-family: "Source Sans Pro", sans-serif;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #fffefe;
     font-weight: lighter;
     margin-left: 50px;
     font-size: 18px;
-    max-width: 600px;
+    max-width: 1200px;
     margin-inline-end: 100px;
     
     @media only screen and (max-width: 600px) {
@@ -64,7 +64,7 @@ $link-color: #2bbc8a; // slateblue
 .about-me-bold {
     // font-family: "Source Sans Pro", sans-serif;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #a3a3a3;
+    color: #ece7e7;
     font-weight: bold;
     margin-left: 50px;
     font-size: 1.4rem;
@@ -160,4 +160,12 @@ $link-color: #2bbc8a; // slateblue
 
 .number-about {
     text-decoration: none;
+}
+
+.am-size{
+    max-width: 1400px;
+}
+
+.am-1 {
+    margin-bottom: 40px;
 }
