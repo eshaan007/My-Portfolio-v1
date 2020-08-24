@@ -30,7 +30,7 @@ class About extends Component {
                                 <h4 className="about-me_bullet">• Breathing since 2000 </h4> 
                                 <h4 className="about-me_bullet">• Studying @ IIITV'22 </h4>         
                                 <h4 className="about-me_bullet">• Started Coding in 2018 </h4>         
-                                <h4 className="about-me_bullet">• Developing Websites is ❤️️ </h4>         
+                                <h4 className="about-me_bullet">• Developing Websites ️ </h4>         
                                 <h4 className="about-me_bullet">• Contributing to OSS actively </h4>                 
                             </Column>
                             </Fade>    
@@ -38,11 +38,11 @@ class About extends Component {
 
                             <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold">Passionate About..</h4>    
-                                <h4 className="about-me_bullet">• Playing Acoustic Guitars🎸</h4>         
-                                <h4 className="about-me_bullet">• Producing Industry-Level Music🎵</h4>         
-                                <h4 className="about-me_bullet">• Watching Football⚽</h4>         
-                                <h4 className="about-me_bullet">• Blogging Tech👨‍💻</h4>         
-                                <h4 className="about-me_bullet">• Gaming Sessions🎮</h4>  
+                                <h4 className="about-me_bullet">• Playing Acoustic Guitars</h4>         
+                                <h4 className="about-me_bullet">• Producing Industry-Level Music</h4>         
+                                <h4 className="about-me_bullet">• Watching Football</h4>         
+                                <h4 className="about-me_bullet">• Blogging Tech</h4>         
+                                <h4 className="about-me_bullet">• Gaming Sessions</h4>  
                                 <h4 className="about-me_bullet">• Food</h4>                
 
                             </Column>
