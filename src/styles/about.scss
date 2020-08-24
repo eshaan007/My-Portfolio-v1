@@ -43,10 +43,10 @@ $link-color: #2bbc8a; // slateblue
 .about-me {
     // font-family: "Source Sans Pro", sans-serif;
     font-family: "Menlo", "Meslo LG", monospace;
-    color: #fffefe;
-    font-weight: lighter;
+    color: #e6e3e3;
     margin-left: 50px;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     max-width: 1200px;
     margin-inline-end: 100px;
     
@@ -60,14 +60,22 @@ $link-color: #2bbc8a; // slateblue
         width: 95%;
     }
 }
+.about-me_bullet {
+    font-family: "Menlo", "Meslo LG", monospace;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-left: 50px;
+}
 
 .about-me-bold {
     // font-family: "Source Sans Pro", sans-serif;
     font-family: "Menlo", "Meslo LG", monospace;
     color: #ece7e7;
-    font-weight: bold;
+    font-weight: bolder;
     margin-left: 50px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     max-width: 600px;
     margin-inline-end: 150px;
 
