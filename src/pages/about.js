@@ -41,12 +41,12 @@ class About extends Component {
 
                             <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faFire} /> Passionate About...</h4> 
-                                <h4 className="about-me_bullet">• Food</h4>                       
                                 <h4 className="about-me_bullet">• Acoustic Guitars</h4>     
                                 <h4 className="about-me_bullet">• Rock & Country Music</h4>         
                                 <h4 className="about-me_bullet">• Football</h4>        
                                 <h4 className="about-me_bullet">• Biographies</h4>          
-                                <h4 className="about-me_bullet">• Blogging</h4>         
+                                <h4 className="about-me_bullet">• Blogging</h4>                                       
+                                <h4 className="about-me_bullet">• Food</h4>                       
                                 <h4 className="about-me_bullet">• Gaming</h4>  
 
                             </Column>
