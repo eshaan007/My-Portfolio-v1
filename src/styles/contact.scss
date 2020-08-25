@@ -56,4 +56,16 @@ $link-color: #2bbc8a; // slateblue
 .sign {
     margin-left: 20px;
     margin-right: 20px;
+
+    @media only screen and (max-width: 600px) {
+        
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.fontHai {
+    @media only screen and (max-width: 600px) {
+        max-width: 30px;
+    }
 }
