@@ -30,10 +30,10 @@ class About extends Component {
                             <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faHeartbeat} /> Life so Far...</h4>     
                                 <h4 className="about-me_bullet">• Breathing since 2000 </h4> 
-                                <h4 className="about-me_bullet">• Studying @ IIITV'22 </h4>
+                                <h4 className="about-me_bullet">• Graduating from IIITV'22 </h4>
                                 <h4 className="about-me_bullet">• Being a Tech-Geek since 2010</h4>
                                 <h4 className="about-me_bullet">• Started Coding in 2018 </h4>         
-                                <h4 className="about-me_bullet">• Developing Websites ️ </h4>         
+                                <h4 className="about-me_bullet">• Developing Awesome Websites ️ </h4>         
                                 <h4 className="about-me_bullet">• Contributing to OSS actively </h4>                 
                             </Column>
                             </Fade>    
@@ -41,11 +41,11 @@ class About extends Component {
 
                             <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faFire} /> Passionate About...</h4> 
-                                <h4 className="about-me_bullet">• Acoustic Guitars</h4>     
-                                <h4 className="about-me_bullet">• Rock & Country Music</h4>         
-                                <h4 className="about-me_bullet">• Football</h4>        
-                                <h4 className="about-me_bullet">• Biographies</h4>          
-                                <h4 className="about-me_bullet">• Blogging</h4>                                       
+                                <h4 className="about-me_bullet">• Jamming on Acoustic Guitars</h4>     
+                                <h4 className="about-me_bullet">• Listening to Rock & Country Music</h4>         
+                                <h4 className="about-me_bullet">• Watching Football</h4>        
+                                <h4 className="about-me_bullet">• Listening to Biographies</h4>          
+                                <h4 className="about-me_bullet">• Blogging Tech and Thoughts</h4>                                       
                                 <h4 className="about-me_bullet">• Food</h4>                       
                                 <h4 className="about-me_bullet">• Gaming</h4>  
 
@@ -55,7 +55,7 @@ class About extends Component {
                             <Fade bottom>
 
                             <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learing...</h4>   
+                                <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
                                 <h4 className="about-me_bullet">• Ethereum DApps with Web3.js </h4>                 
                                 <h4 className="about-me_bullet">• AWS Cloud</h4>         
                                 <h4 className="about-me_bullet">• CI/CD</h4>         
