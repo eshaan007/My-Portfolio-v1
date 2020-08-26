@@ -99,7 +99,7 @@ $link-color: #2bbc8a; // slateblue
 
 .contain1 {
     display: inline-block;
-    margin-bottom: 150px;
+    margin-bottom: -100px;
 
     @media only screen and (max-width: 600px) {
 
@@ -180,7 +180,7 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .am-size{
-    max-width: 1400px;
+    max-width: 1250px;
     @media only screen and (max-width: 600px) {
         
     }
@@ -188,8 +188,9 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .am-1 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     @media only screen and (max-width: 600px) {
+        margin-bottom: 30px;
 
     }
 
@@ -212,5 +213,16 @@ $link-color: #2bbc8a; // slateblue
             display: none;
         }
 
+    }
+}
+
+.github-chart {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+
+    @media only screen and (max-width: 600px) {
+    
+        
     }
 }
