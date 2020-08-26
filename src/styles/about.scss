@@ -219,10 +219,12 @@ $link-color: #2bbc8a; // slateblue
 .github-chart {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0px;
+    margin-bottom: -40px;
+    margin-top: -120px;
 
     @media only screen and (max-width: 600px) {
     
+        margin-top: -150px;
         
     }
 }

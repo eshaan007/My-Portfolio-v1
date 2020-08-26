@@ -63,7 +63,7 @@ class About extends Component {
                         </Fade>  
 
                         <div className="github-chart">    
-                            <GitHubCalendar username="eshaan007" blockSize={18} blockMargin={5}/> 
+                            <GitHubCalendar username="eshaan007" blockSize={18} blockMargin={5} theme="myTheme" color="#2bbc8a"/>
                         </div>
                         
                         </Row>
