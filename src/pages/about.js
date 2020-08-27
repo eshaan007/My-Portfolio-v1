@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Column, Row } from 'simple-flexbox';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeartbeat, faFire, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-import GitHubCalendar from 'react-github-calendar';
+// import GitHubCalendar from 'react-github-calendar';
 
 class About extends Component {
     render() {
@@ -62,9 +62,9 @@ class About extends Component {
                             </Column>
                         </Fade>  
 
-                        <div className="github-chart">    
-                            <GitHubCalendar username="eshaan007" blockSize={18} blockMargin={5} theme="myTheme" color="#2bbc8a"/>
-                        </div>
+                        {/* <div className="github-chart">    
+                            <GitHubCalendar username="eshaan007" blockSize={18} blockMargin={5} theme="myTheme" color="#c8a"/>
+                        </div> */}
                         
                         </Row>
                     </div>
