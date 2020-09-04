@@ -8,7 +8,7 @@ Having a portfolio of my own was always something I personally wanted. But devel
 </p>
   
 <h3 align="center">
-  Made with ❤️ by <strong>EK</strong> using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">
+  Made with ❤️ by <strong>Eshaan Khurana</strong> using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">
 </h3>
 
 <p align="center">
