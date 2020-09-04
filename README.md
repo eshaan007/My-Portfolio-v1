@@ -1,9 +1,5 @@
-<p align="center">
-  <img width="65" height="110" src="/src/images/logo-blue.png" alt="My Logo">
-</p>
-<h1 align="center"> <strong> Eshaan Khurana </strong> </h1>
 
-## My Portfolio
+<h1 align="center"> <strong> My Portfolio </strong> </h1>
 
 Having a portfolio of my own was always something I personally wanted. But developing it on my own is **THE THING** I am proud of most *Right Now.*
 
