@@ -21,13 +21,13 @@ class Certifications extends Component {
                                 <Row wrap horizontal='spaced'>
   
                                     <Column className="card" flexGrow={1} horizontal='spaced'>
-                                        <a className="cert-name" href="https://www.coursera.org/account/accomplishments/records/F2ANEUUPSBM3" target="_blank" rel="noopener noreferrer" >Smart Contracts</a>
-                                        <a className="cert-desc" href="https://www.coursera.org/account/accomplishments/records/F2ANEUUPSBM3">- The University of Buffalo </a>
+                                        <a className="cert-name" href="https://coursera.org/share/152a0d77124b59c561eac67dc5b9a9d8" target="_blank" rel="noopener noreferrer" >Blockchain Specialization</a>
+                                        <a className="cert-desc" href="https://coursera.org/share/152a0d77124b59c561eac67dc5b9a9d8">- The University of Buffalo </a>
                                     </Column>
 
                                     <Column className="card" flexGrow={1} horizontal='spaced'>
-                                        <a className="cert-name-udemy" target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/account/accomplishments/verify/VE5Q6NGQQ3M4?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">Blockchain Basics</a>
-                                        <a className="cert-desc" href="https://www.coursera.org/account/accomplishments/verify/VE5Q6NGQQ3M4?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course">- The University of Buffalo</a>
+                                        <a className="cert-name-udemy" target="_blank" rel="noopener noreferrer" href="https://coursera.org/share/96829d634fedba6f11ea5681a7020f3d">Guitar Specialization</a>
+                                        <a className="cert-desc" href="https://coursera.org/share/96829d634fedba6f11ea5681a7020f3drse">- Berklee College of Music</a>
                                     </Column>
                                 </Row>
                             </Column>
@@ -75,30 +75,33 @@ class Certifications extends Component {
                                         <a className="cert-desc" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fapp.pluralsight.com%2Fscore%2Fredir%2F3c330b34-6eb1-4374-a4ca-8cfbbaf13e8b%3Fec97ad1aba">- PluralSight </a>
                                     </Column>
                                 
-                                    <Column className="card" flexGrow={1} horizontal='spaced'>
-                                        <a className="cert-name-pluralsight" href="https://www.docdroid.net/wdNtKmG/mysqlfundamentals-pdf" target="_blank" rel="noopener noreferrer">MySQL Fundamentals</a>
-                                        <a className="cert-desc" href="https://www.docdroid.net/wdNtKmG/mysqlfundamentals-pdf">- PluralSight</a>
-                                    </Column>
-                                </Row>
-                            </Column>
-                            </Fade>
-
-                            <Fade bottom>
-                            <Column className="col3" flexGrow={1}>
-                                <Row wrap horizontal="spaced">
                                 
                                     <Column className="card" flexGrow={1} horizontal='spaced'>
                                         <a className="cert-name-udemy" href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4c5df15f-8201-4a6d-958b-f19add0c9a54.pdf" target="_blank" rel="noopener noreferrer">Java Programming Masterclass</a>
                                         <a className="cert-desc" href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-4c5df15f-8201-4a6d-958b-f19add0c9a54.pdf">- Udemy</a>
                                     </Column>
+
+                                    
+                                </Row>
+                            </Column>
+                            </Fade>
+
+                            {/* <Fade bottom>
+                            <Column className="col3" flexGrow={1}>
+                                <Row wrap horizontal="spaced">
                                 
+                                    <Column className="card" flexGrow={1} horizontal='spaced'>
+                                        <a className="cert-name-pluralsight" href="https://www.docdroid.net/wdNtKmG/mysqlfundamentals-pdf" target="_blank" rel="noopener noreferrer">MySQL Fundamentals</a>
+                                        <a className="cert-desc" href="https://www.docdroid.net/wdNtKmG/mysqlfundamentals-pdf">- PluralSight</a>
+                                    </Column>
+
                                     <Column className="card" flexGrow={1} horizontal='spaced'>
                                         <a className="cert-name-girlscript" href="https://imgur.com/a/MRDMJRi" target="_blank" rel="noopener noreferrer">Data Structures And Algorithms</a>
                                         <a className="cert-desc" href="https://imgur.com/a/MRDMJRi">- GirlScript.tech</a>
                                     </Column>
                                 </Row>
                             </Column>
-                            </Fade>
+                            </Fade> */}
 
                             <Fade bottom>
                             <Column className="col1" flexGrow={1}>
