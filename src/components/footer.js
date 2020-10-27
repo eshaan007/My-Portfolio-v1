@@ -26,11 +26,11 @@ import { faGithub, faLinkedin, faMedium, faTwitter } from '@fortawesome/free-bra
                 </div>
 
                 <div className="favicon-again">
-                    <a className="arrow-link-1" href="mailto:eshaany2k@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} size="1.5x"/>{   }</a>
-                    <a className="arrow-link-1" href="https://github.com/eshaan007/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} />{   }</a>
-                    <a className="arrow-link-1" href="https://linkedin.com/in/eshaan-khurana/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} />{   }</a>
-                    <a className="arrow-link-1" href="https://twitter.com/eshaaaan007/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} />{   }</a>
-                    <a className="arrow-link-1" href="https://medium.com/@eshaany2k/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium} />{   }</a>
+                    <a className="arrow-link-1" href="mailto:eshaany2k@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} size="2x"/>{   }</a>
+                    <a className="arrow-link-1" href="https://github.com/eshaan007/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size="2x" />{   }</a>
+                    <a className="arrow-link-1" href="https://linkedin.com/in/eshaan-khurana/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" />{   }</a>
+                    <a className="arrow-link-1" href="https://twitter.com/eshaaaan007/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="2x" />{   }</a>
+                    <a className="arrow-link-1" href="https://medium.com/@eshaany2k/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium} size="2x" />{   }</a>
                 </div>
 
             </div>
