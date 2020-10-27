@@ -17,11 +17,11 @@ $link-color: #2bbc8a; // slateblue
     color: #2bbc8a;
 
     @media only screen and (max-width: 600px) {
-      margin-top: 10px;
-      font-size: 0.8rem;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
+        margin-top: 0px;
+        font-size: 1rem;
+        width: 95%;
+        text-align: center;
+        color: white;
     }
 }
 
@@ -29,20 +29,25 @@ $link-color: #2bbc8a; // slateblue
     color: #2bbc8a;
     margin-left: 883px;
     margin-top: -45px;
+    display: block;
 
     @media only screen and (max-width: 600px) {
-
         margin-left: 0px;
-        
+        margin-top: 50px;
+        display: none;
     }
-
 }
 
 .footer-container {
     margin-bottom: 50px;
 }
 
-.arrow-link {
+
+$duration: .2s;
+$distance: 8px;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+.arrow-link-1 {
     margin: 10px;
     text-decoration: none;
     color: $link-color;
@@ -52,8 +57,21 @@ $link-color: #2bbc8a; // slateblue
     transition: all .2s ease-in-out;
     box-sizing: border-box;
     text-decoration: none;
-
+    
     &:hover {
+        transition: all .3s ease-out;
+        box-shadow:  0 -2px 0 0 $link-color inset ;
+      }
+  }
+
+.favicon-again {
+    display: none;
+
+    @media only screen and (max-width: 600px) {
+        margin-right: 19px;
+        display: block;
+        text-align: center;
         
     }
-  }
+
+}
