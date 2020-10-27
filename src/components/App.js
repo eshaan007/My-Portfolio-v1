@@ -5,7 +5,7 @@ import Navbar from './navbar.js';
 import About from '../pages/about.js';
 import Skills from '../pages/skills.js';
 import Footer from '../components/footer.js';
-import Contact from '../pages/contact.js';
+// import Contact from '../pages/contact.js';
 import Fade from 'react-reveal/Fade';
 import Certifications from '../pages/certifications.js';
 import me from '../images/me-code-4.png';

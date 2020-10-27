@@ -53,7 +53,14 @@ $link-color: #2bbc8a; // slateblue
     box-sizing: border-box;
     text-decoration: none;
     
+    .arrow-link:hover:after{
+        height:3px;
+        opacity:1;
+        -webkit-transform:translateY(-5px);
+        transform:translateY(-5px)
+    }
+
     &:hover {
-        
+
     }
   }
