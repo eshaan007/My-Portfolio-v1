@@ -12,7 +12,7 @@ class Certifications extends Component {
                     <h3 className="heading-cert"> <a className="number-about" href="/resume"> 03. </a> My Certifications </h3>
                 </Fade>
 
-                    <div className="logo-container">       
+                    <div className="cert-container">       
 
                         <div className="about-cert">
 

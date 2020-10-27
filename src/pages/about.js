@@ -18,10 +18,10 @@ class About extends Component {
                     <div className="am-size">    
                         <Fade bottom>
                             <div className="am-1">
-                                <h4 className="about-me">Hello! I am Eshaan Khurana. I am a developer leaning towards front end web development and design. I am currently a 3rd year Undergraduate (2018-22) at <a className="bold-blue" href=" ">Indian Institute of Information Technology, Vadodara </a>pursuing B. Tech. in Information Technology.
-                                    I enjoy designing responsive websites using multiple frameworks and tools provided by <a className="bold-yellow" href=" "> JS. </a></h4>
+                                <h4 className="about-me">Hello! I'm Eshaan Khurana I am currently a 3rd year Undergraduate (2018-22) at <a className="bold-blue" href=" ">Indian Institute of Information Technology, Vadodara </a>pursuing B. Tech. in Information Technology. I love Developing, Designing and Decentralizing Websites. 
+                                    I enjoy designing Responsive websites using Multiple frameworks provided by the Mighty <a className="bold-yellow" href=" "> Javascript. </a></h4>
 
-                                <h4 className="about-me"> My goal is to build pixel-perfect components and practical projects which provide a rich user experience with <a className="bold-white" href=" ">real world application.</a> </h4>
+                                <h4 className="about-me"> My goal is to build pixel-perfect components and practical projects which provide a rich user experience with real world application.<br/> The Future is Decentralized. </h4>
                             </div>
                         </Fade>    
 

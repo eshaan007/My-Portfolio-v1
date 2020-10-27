@@ -1,30 +1,7 @@
 import React,{ Component } from 'react';
 import { Column, Row } from 'simple-flexbox';
-
-import android from '../images/android-studio.png';
-import bootstrap4 from '../images/bootstrap4.png';
-import C from '../images/C.png';
-import Cpp from '../images/C++.png';
-import css3 from '../images/css3.png';
-import firebase from '../images/firebase.png';
-import github from '../images/github.png';
-import html5 from '../images/html5.png';
-import java from '../images/java.png';
-import jquery from '../images/jquery.png';
-import js from '../images/js.png';
-import linux from '../images/linux.png';
-import nodejs from '../images/nodejs.png';
-import npm from '../images/npm.png';
-import postman from '../images/postman.png';
-import python3 from '../images/python3.png';
-import react from '../images/react.png';
-import sass from '../images/sass.png';
-import expressjs from '../images/expressjs.png';
-import netlify from '../images/netlify.png';
-import vscode from '../images/vscode.png';
-import figma from '../images/figma.png';
-import mysql from '../images/mysql.png';
-import mongodb from '../images/mongodb.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeartbeat, faFire, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 import '../styles/skills.scss';
 import Fade from 'react-reveal/Fade';
@@ -33,105 +10,76 @@ class Skills extends Component {
     render() {
     return(
         <div id="skill-top">
+
             <Fade bottom>
-            <h3 className="heading"> <a className="number-about" href=" "> 02. </a> My Skill-Set </h3>
+            <h3 className="heading_1"> <a className="number-about" href=" "> 02. </a> My Skill-Set </h3>
             <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>        
             </Fade>
 
             <div id="no-mob" className="logo-container">       
-            <Fade bottom>
-                <Column flexGrow={1}>
-                <Row wrap vertical='center'>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={html5} alt="html5"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={css3} alt="css"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={sass} alt="sass"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={js} alt="js"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={react} alt="react"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={bootstrap4} alt="bootstrap"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={jquery} alt="jquery"></img> 
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={github} alt="github"></img>
-                    </Column>
-                    </Row>
-                </Column>
-            </Fade>
 
-            <Fade bottom>
-                <Column flexGrow={1}>
-                    <Row wrap vertical='center'>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={java} alt="java"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={python3} alt="py"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={C} alt="C"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={Cpp} alt="C++"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={nodejs} alt="node"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={mysql} alt="mysql"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={npm} alt="npm"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={expressjs} alt="express"></img>
-                    </Column>
-                    </Row>
-                </Column>
-            </Fade>
+                    <Row wrap horizontal='spaced'>
+                        <Fade bottom>
+                            <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
+                                <h4 className="about-me-bold"> Languages</h4>     
+                                <h4 className="about-me_bullet">• Javascript(ES6+) </h4> 
+                                <h4 className="about-me_bullet">• Java </h4>
+                                <h4 className="about-me_bullet">• HTML</h4>
+                                <h4 className="about-me_bullet">• S(CSS) </h4>         
+                                <h4 className="about-me_bullet">• C/C++ ️ </h4>  
+                                <h4 className="about-me_bullet">• SQL ️ </h4>                
+                            </Column>
+                        </Fade>    
+                        
+                        <Fade bottom>
+                            <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
+                                <h4 className="about-me-bold"> Frameworks</h4> 
+                                <h4 className="about-me_bullet">• ReactJS</h4>     
+                                <h4 className="about-me_bullet">• Bootstrap4</h4>         
+                                <h4 className="about-me_bullet">• ExpressJS</h4>                                       
+                                <h4 className="about-me_bullet">• GraphQL</h4>        
+                                <h4 className="about-me_bullet">• JQuery</h4> 
+                                <h4 className="about-me_bullet">• GatsbyJS/ Next.js</h4>                                             
+                            </Column>
+                        </Fade>    
 
-            <Fade bottom>
-                <Column flexGrow={1}>
-                    <Row wrap vertical='center'>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={postman} alt="postman"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo1" src={mongodb} alt="mongodb"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={android} alt="android"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={firebase} alt="firebase"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={linux} alt="linux"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={vscode} alt="visual studio code"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={figma} alt="figma"></img>
-                    </Column>
-                    <Column flexGrow={1} horizontal='center'>
-                        <img className="logo" src={netlify} alt="netlify"></img>
-                    </Column>
+                        <Fade bottom>
+                            <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
+                                <h4 className="about-me-bold"> Research Interest</h4>     
+                                <h4 className="about-me_bullet">• Web Security </h4> 
+                                <h4 className="about-me_bullet">• Evolution of Blockchain  </h4>
+                                <h4 className="about-me_bullet">• Distributed Ledger Technology</h4>
+                                <h4 className="about-me_bullet">• Cryptographic Primitives of Blockchain </h4>                        
+                            </Column>
+                        </Fade>    
+
+                        <Fade bottom>
+                            <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
+                                <h4 className="about-me-bold"> Blockchain Development</h4>     
+                                <h4 className="about-me_bullet">• Solidity </h4> 
+                                <h4 className="about-me_bullet">• Web3.js </h4>
+                                <h4 className="about-me_bullet">• Truffle </h4>
+                                <h4 className="about-me_bullet">• Ganache </h4>
+                                <h4 className="about-me_bullet">• Distributed Applications </h4>
+                            </Column>
+                        </Fade>    
+
+                       
+                        <Fade bottom>
+                            <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
+                                <h4 className="about-me-bold"> Tools </h4>  
+                                <h4 className="about-me_bullet">• VSCode & Bash</h4>   
+                                <h4 className="about-me_bullet">• RemixIDE </h4> 
+                                <h4 className="about-me_bullet">• Firebase</h4>    
+                                <h4 className="about-me_bullet">• Git & Github</h4>         
+                                <h4 className="about-me_bullet">• Chrome DevTools</h4>         
+                                <h4 className="about-me_bullet">• Postman</h4>         
+                                <h4 className="about-me_bullet">• Figma</h4>                      
+                            </Column>
+                        </Fade>  
+
+                        
                     </Row>
-                </Column>
-            </Fade>
-            
             </div>
         </div>
     );

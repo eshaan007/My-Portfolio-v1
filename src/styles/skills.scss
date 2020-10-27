@@ -9,10 +9,11 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .logo {
-  width: 70px;
-  padding: 15px;
+  max-width: 45px;
+  max-height: 60px;
+  object-fit: contain;
   transition: all .3s ease-in-out;
-  margin: 10px;
+  margin: 5px;
   vertical-align: middle;
   -webkit-filter: grayscale(100%);
   filter: grayscale(0%);
@@ -24,14 +25,17 @@ $link-color: #2bbc8a; // slateblue
   @media only screen and (max-width: 600px) {
     width: 60px;
     padding: 0px;
-    margin: 10px;
+    margin: 5px;
   }
 }
 
 //  filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 
-.heading{
+.heading_1{
   margin-top: 120px;
+  margin-left: 50px;
+  color: #2bbc8a;
+  font-size: 1.8rem;
 
   @media only screen and (max-width: 600px) {
     display: block;
@@ -44,12 +48,12 @@ $link-color: #2bbc8a; // slateblue
 .about-me-bold1 {
   // font-family: "Source Sans Pro", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  color: #a3a3a3;
-  font-weight: bold;
+  color: #ffffff;
   margin-left: 50px;
   font-size: 1.3rem;
   max-width: 1000px;
   margin-inline-end: 150px;
+  font-weight: 400;
 
   @media only screen and (max-width: 600px) {
       font-size: 1.05rem;
@@ -61,10 +65,10 @@ $link-color: #2bbc8a; // slateblue
 }
 
 .logo-container {
-  max-width: 1400px;
- // margin-left: 50px;
+  max-width: 1300px;
+//  margin-left: 50px;
   margin-bottom: 250px;
-
+  // text-align: center;
 
   @media only screen and (max-width: 600px) {
     margin-bottom: 100px;
@@ -75,33 +79,18 @@ $link-color: #2bbc8a; // slateblue
   }
 }
 
-.logo1 {
-  width: 70px;
-  height: 120px;
-  padding: 20px;
-  transition: all .3s ease-in-out;
-  margin: 10px;
-  vertical-align: middle;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(0%);
-
-  &:hover {
-    filter: grayscale(0%);
-  }
-
-  @media only screen and (max-width: 600px) {
-    padding: 0px;
-    width: 60px;
-    size: 70%;
-    height: auto;
-    filter: grayscale(0%);
-  }
-}
-
 .skill-top {
   margin-top: 100px;
+  // text-align: center;
+  // justify-content: center;
 
   @media only screen and (max-width: 600px) {
     margin-top: 0px;
   }
+}
+
+.logo-name {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
 }
