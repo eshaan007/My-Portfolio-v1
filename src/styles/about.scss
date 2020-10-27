@@ -9,7 +9,7 @@ $link-color: #2bbc8a; // slateblue
     color: $link-color;
     //margin-top: -20px;
     margin-left: 50px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     // font-family: 'Roboto Mono', monospace;
     font-family: "Source Sans Pro", sans-serif;
     animation: fadeInAnimation ease 3s;
@@ -33,10 +33,14 @@ $link-color: #2bbc8a; // slateblue
         margin-right: auto;
         width: 95%;
     }
+}
 
-    .number-about {
-        font-size: 1.2rem;
-        color: $link-color;
+.number-about {
+    font-size: 2rem;
+    color: $link-color;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 1.3rem;
     }
 }
 
@@ -62,7 +66,7 @@ $link-color: #2bbc8a; // slateblue
 }
 .about-me_bullet {
     font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
+    color: #cccaca;
     font-weight: 100;
     font-size: 16px;
     margin-bottom: 8px;

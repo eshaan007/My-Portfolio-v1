@@ -81,6 +81,7 @@ $link-color: #2bbc8a; // slateblue
 
 article {
   //margin-left: 30px;
+  justify-content: center;
   max-width: 980px;
   margin-top: 140px;
   margin-bottom: 200px;
@@ -222,13 +223,13 @@ article {
   font-size: 1.3rem;
   margin-inline-end: 450px;
   font-weight: bold;
-  color: #a3a3a3;
+  color: #cccaca;
   font-weight: lighter;
 
   @media only screen and (max-width: 600px) {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-inline-end: 0px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 

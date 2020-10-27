@@ -54,15 +54,20 @@ a {
   /* header */
   
   .header {
-    
+    // justify-content: ;
     transition: top 0.5s;
-  //  margin-left: 15px;
+    margin-left: -328px;
     background-color: #1d1f21;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
-     max-width: 1267px;
+    //  max-width: 150rem;
      position: fixed;
      width: 100%;
      z-index: 3;
+
+    @media only screen and (max-width: 1400px) {
+      max-width: 1368px;
+      margin-left: -60px;
+    } 
   
   
 
