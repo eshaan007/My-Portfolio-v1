@@ -22,9 +22,12 @@ class App extends Component {
         <Fade bottom cascade>
         <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
-        <h2 className="aftername"> I Build and Blog Technology</h2>
-        <h4 className="desc">I'm a Front-End Web Developer, Specializing in Development and Design..
-          Here's my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👨‍💻</h4>
+        <h2 className="aftername"> I Design and Decentralize the Web.</h2>
+        <h4 className="desc">I'm an incoming Software Engineer based in Navi Mumbai, IN specializing in building, designing and decentralizing websites, applications and everything in between.
+        </h4>
+
+        {/* Here's my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👨‍💻 */}
+
         <p>
           <button className="arrow-link" target="_blank" rel="noopener noreferrer">
             <a className="mail" href="mailto:eshaany2k@gmail.com">

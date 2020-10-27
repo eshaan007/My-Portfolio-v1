@@ -81,7 +81,7 @@ $link-color: #2bbc8a; // slateblue
 
 article {
   //margin-left: 30px;
-  max-width: 1000px;
+  max-width: 980px;
   margin-top: 140px;
   margin-bottom: 200px;
   padding: 12px;
@@ -101,7 +101,7 @@ article {
   h1 {
     font-weight: 300;
     line-height: 1.5;
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
 
   .highlight-link {
@@ -132,8 +132,8 @@ article {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin-top: 50px;
+    font-size: 22px;
+    margin-top: 30px;
     cursor: pointer;
     border-radius: 4px;
     transition: all .3s ease-in-out;
@@ -194,38 +194,41 @@ article {
   color: #ffffff;
   //margin-top: -20px;
   margin-left: -3px;
-  font-size: 3.2rem;
+  font-size: 3.8rem;
+  font-weight: 800;
 
   @media only screen and (max-width: 600px) {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
     margin-left: 0px;
   }
 }
 
 .aftername {
   margin-top: -10px;
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: #929191;
+  font-weight: 800;
   
   @media only screen and (max-width: 600px) {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }
 
 .desc {
-  margin-top: 50px;
+  margin-top: 30px;
   //font-family: 'Abel', sans-serif;
   // font-family: "Source Sans Pro", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.3rem;
-  margin-inline-end: 600px;
+  margin-inline-end: 450px;
+  font-weight: bold;
   color: #a3a3a3;
   font-weight: lighter;
 
   @media only screen and (max-width: 600px) {
     margin-top: 30px;
     margin-inline-end: 0px;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -247,11 +250,11 @@ article {
     animation-iteration-count: infinite;    /* Never stop waving :) */
     transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
     display: inline-block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 
     @media only screen and (max-width: 600px) {
       
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
   
