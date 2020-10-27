@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade';
             <div className="footer-container">
                 {/* <Flip cascade> */}
                 <h4 className="intro1"> Designed and Developed by</h4>
-                <h4 className="intro1"> Eshaan Khurana <span role="img"> 🤘</span> 2020</h4>
+                <h4 className="intro1"> Eshaan Khurana <span role="img" aria-label="rock"> 🤘</span> 2020</h4>
                 {/* </Flip> */}
                 {/* <a className="sign" href="https://github.com/eshaan007/" target="_blank" rel="noopener noreferrer"> </a> { Github }
                 <a className="sign" href="mailto:eshaany2k@gmail.com" target="_blank" rel="noopener noreferrer"> </a> { Mail }
