@@ -7,7 +7,6 @@ $link-color: #2bbc8a; // slateblue
   }
   
 .cent-line {
-    margin-top: 200px;
     color: $link-color;
     font-size: 1.6rem;
     // font-family: 'Roboto Mono', monospace;
@@ -55,7 +54,7 @@ $link-color: #2bbc8a; // slateblue
 
 .sign {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 400px;
 
     @media only screen and (max-width: 600px) {
         

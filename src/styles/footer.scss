@@ -9,13 +9,12 @@ $link-color: #2bbc8a; // slateblue
 .intro1 {
     // font-family: 'Roboto Mono', monospace;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.1rem;
-    align-items: center;
-    font-weight: normal;
+    font-size: 1.3rem;
+    font-weight: bold;
     line-height: 0px;
-    text-align: center;
+    // text-align: center;
     display: block;
-    color: $link-color;
+    color: #2bbc8a;
 
     @media only screen and (max-width: 600px) {
       margin-top: 10px;
@@ -26,18 +25,35 @@ $link-color: #2bbc8a; // slateblue
     }
 }
 
-.cont {
-    color: #FFFfff;
-    margin-bottom: 40px;
-    transition: all .3s ease-in-out;
-    margin-top: 200px;
+.links {
+    color: #2bbc8a;
+    margin-left: 883px;
+    margin-top: -45px;
 
-    @media only screen and (max-width: 600px) { 
-        margin-bottom: 20px;
-        margin-top: 100px;
+    @media only screen and (max-width: 600px) {
+
+        margin-left: 0px;
+        
     }
 
-    &:hover {
-        color: $link-color;
-    }
 }
+
+.footer-container {
+    margin-bottom: 50px;
+}
+
+.arrow-link {
+    margin: 10px;
+    text-decoration: none;
+    color: $link-color;
+    font-weight: 600;
+    display: inline-block;
+    // padding: 0px 7px;
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    &:hover {
+        
+    }
+  }

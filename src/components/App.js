@@ -43,7 +43,7 @@ class App extends Component {
       <About />
       <Skills />
       <Certifications />
-      <Contact/>
+      {/* <Contact/> */}
       <Footer />
     </div>
   );

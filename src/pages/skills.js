@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import { Column, Row } from 'simple-flexbox';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 import '../styles/skills.scss';
 import Fade from 'react-reveal/Fade';
