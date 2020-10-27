@@ -28,7 +28,7 @@ $link-color: #2bbc8a; // slateblue
     color: #ffffff;
   //  text-align: left;
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-in-out;
@@ -43,148 +43,6 @@ $link-color: #2bbc8a; // slateblue
         color: $link-color;  
     }
 }
-
-.cert-name-pluralsight {
-
-    // font-family: 'Roboto Mono', monospace;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-  //  text-align: left;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-
-
-    @media only screen and (max-width: 600px) {
-    
-    font-size: 1rem;
-
-    }
-
-    &:hover {
-        color: #ffffff; 
-    }
-}
-
-.cert-name-girlscript {
-
-    // font-family: 'Roboto Mono', monospace;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-  //  text-align: left;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-
-
-    @media only screen and (max-width: 600px) {
-
-    font-size: 1rem;
-    }
-
-    &:hover {
-        color: #ffffff;  
-    }
-}
-
-.cert-name-udemy {
-
-    // font-family: 'Roboto Mono', monospace;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-  //  text-align: left;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-
-
-    @media only screen and (max-width: 600px) {
-    
-
-    font-size: 1rem;
-    }
-
-    &:hover {
-        color: #ffffff;
-    }
-}
-
-.cert-name-google {
-
-    // font-family: 'Roboto Mono', monospace;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-  //  text-align: left;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-
-    @media only screen and (max-width: 600px) {
-    
-    font-size: 1rem;
-
-    }
-
-    &:hover {
-        color: #f5ce07;
-    }
-}
-
-.cert-name-google1 {
-
-    // font-family: 'Roboto Mono', monospace;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-  //  text-align: left;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-
-    @media only screen and (max-width: 600px) {
-    
-    font-size: 1rem;
-
-    }
-
-    &:hover {
-        color: #34a853;
-    }
-}
-
-.cert-name-freecodecamp {
-
-    // font-family: 'Roboto Mono', monospace;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
-  //  text-align: left;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-
-    @media only screen and (max-width: 600px) {
-    
-    font-size: 1rem;
-
-    }
-
-    &:hover {
-        color:#f5f6f7;
-    }
-}
-
 
 .cert-desc {
     // font-family: 'Roboto Mono', monospace;
@@ -202,9 +60,6 @@ $link-color: #2bbc8a; // slateblue
         font-size: 13px;
 
         }
-    
-    
-  //  text-align: left;
 }
 
 .heading-cert {
@@ -270,36 +125,6 @@ $link-color: #2bbc8a; // slateblue
         .cert-name {
         color: $link-color;  
         }
-
-        .cert-name-pluralsight{
-            color: $link-color; 
-
-        }
-
-        .cert-name-girlscript{
-            color: $link-color;  
-
-        }
-
-        .cert-name-udemy {
-            color:$link-color;
-
-        }
-
-        .cert-name-google {
-            color: $link-color;
-
-        }
-
-        .cert-name-google1 {
-            color: $link-color;
-
-        }
-
-        .cert-name-freecodecamp {
-            color:$link-color;
-        }
-
     }
     
     @media only screen and (max-width: 600px) {

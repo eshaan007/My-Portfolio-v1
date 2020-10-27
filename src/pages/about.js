@@ -29,36 +29,36 @@ class About extends Component {
                         <Fade bottom>
                             <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faHeartbeat} /> Life so Far...</h4>     
-                                <h4 className="about-me_bullet">• Breathing since 2000 </h4> 
-                                <h4 className="about-me_bullet">• Graduating from IIITV in 2022 </h4>
-                                <h4 className="about-me_bullet">• Being a Tech-Geek since 2010</h4>
-                                <h4 className="about-me_bullet">• Started Coding in 2018 </h4>         
-                                <h4 className="about-me_bullet">• Developing Awesome Websites ️ </h4>         
-                                <h4 className="about-me_bullet">• Contributing to OSS actively </h4>                 
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Breathing since 2000 </h4> 
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Graduating from IIITV in 2022 </h4>
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Being a Tech-Geek since 2010</h4>
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Started Coding in 2018 </h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Developing Awesome Websites ️ </h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Contributing to OSS actively </h4>                 
                             </Column>
                         </Fade>    
                         
                         <Fade bottom>
                             <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faFire} /> Passionate About...</h4> 
-                                <h4 className="about-me_bullet">• Jamming on Acoustic Guitars</h4>     
-                                <h4 className="about-me_bullet">• Listening to Rock & Country Music</h4>         
-                                <h4 className="about-me_bullet">• Blogging Tech and Thoughts</h4>                                       
-                                <h4 className="about-me_bullet">• Watching Football</h4>        
-                                <h4 className="about-me_bullet">• Food</h4>                       
-                                <h4 className="about-me_bullet">• Gaming</h4>  
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Jamming on Acoustic Guitars</h4>     
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Listening to Rock & Country Music</h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Blogging Tech and Thoughts</h4>                                       
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Watching Football</h4>        
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Food</h4>                       
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Gaming</h4>  
                             </Column>
                         </Fade>    
 
                         <Fade bottom>
                             <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
-                                <h4 className="about-me_bullet">• Ethereum DApps with Web3.js</h4>    
-                                <h4 className="about-me_bullet">• Integrating React + Web3</h4>                      
-                                <h4 className="about-me_bullet">• CI/CD</h4>         
-                                <h4 className="about-me_bullet">• Web Security</h4>         
-                                <h4 className="about-me_bullet">• Cryptographic Algorithms</h4>         
-                                <h4 className="about-me_bullet">• Testing using Jest</h4>                      
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Integrating React + Web3</h4>  
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> VueJS</h4>                        
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> CI/CD</h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security</h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Cryptographic Algorithms</h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Testing using Jest</h4>                      
                             </Column>
                         </Fade>  
 
