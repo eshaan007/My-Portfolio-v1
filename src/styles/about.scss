@@ -11,7 +11,7 @@ $link-color: #2bbc8a; // slateblue
     margin-left: 50px;
     font-size: 1.4rem;
     // font-family: 'Roboto Mono', monospace;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
@@ -42,13 +42,13 @@ $link-color: #2bbc8a; // slateblue
 
 .about-me {
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     color: #e6e3e3;
     margin-left: 50px;
     font-weight: 400;
-    font-size: 16px;
-    max-width: 1100px;
-    margin-inline-end: 100px;
+   font-size: 20px;
+    max-width: 1200px;
+    // margin-inline-end: 50px;
     
     @media only screen and (max-width: 600px) {
         font-size: 0.8rem;
@@ -61,10 +61,10 @@ $link-color: #2bbc8a; // slateblue
     }
 }
 .about-me_bullet {
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     color: #ffffff;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 8px;
     margin-left: 50px;
 
@@ -77,7 +77,7 @@ $link-color: #2bbc8a; // slateblue
 
 .about-me-bold {
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     color: #ece7e7;
     font-weight: bolder;
     margin-left: 50px;
@@ -118,7 +118,7 @@ $link-color: #2bbc8a; // slateblue
 .bold-blue {
     color: $link-color;
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
     font-weight: bold;
 }
@@ -127,7 +127,7 @@ $link-color: #2bbc8a; // slateblue
     color: yellow;
     font-weight: bold;
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
 
 
@@ -139,7 +139,7 @@ $link-color: #2bbc8a; // slateblue
 .bold-white {
     color: white;
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
 
 
@@ -151,7 +151,7 @@ $link-color: #2bbc8a; // slateblue
 .bold-brown {
     color: rgb(230, 149, 84);
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
 
 
@@ -163,7 +163,7 @@ $link-color: #2bbc8a; // slateblue
 .bold-green {
     color: rgb(33, 236, 33);
     // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     text-decoration: none;
 
     &:hover {

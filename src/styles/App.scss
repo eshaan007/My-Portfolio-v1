@@ -39,7 +39,7 @@ body {
     // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
 
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -85,8 +85,8 @@ article {
   margin-top: 140px;
   margin-bottom: 200px;
   padding: 12px;
-  // font-family: "Source Sans Pro", sans-serif;
-  font-family: "Menlo", "Meslo LG", monospace;
+   font-family: "Source Sans Pro", sans-serif;
+  // font-family: "Poppins", sans-serif;
   color: #36363C;
 
   @media only screen and (max-width: 600px) {
@@ -127,7 +127,7 @@ article {
     font-weight: bold;
     border: #2bbc8a;
     // font-family: 'Roboto Mono', monospace;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -157,7 +157,7 @@ article {
       border: 2px solid $link-color;
       color: $link-color;
       // font-family: "FontAwesome";
-      font-family: "Menlo", "Meslo LG", monospace;
+      font-family: "Source Sans Pro", sans-serif;
       font-size: 1.5rem;
       display: inline-block;
       vertical-align: middle;
@@ -182,7 +182,7 @@ article {
   margin-top: 100px;
   color: $link-color;
   // font-family: 'Roboto Mono', monospace;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.3rem;
   @media only screen and (max-width: 600px) {
     margin-top: 10px;
@@ -216,7 +216,7 @@ article {
   margin-top: 50px;
   //font-family: 'Abel', sans-serif;
   // font-family: "Source Sans Pro", sans-serif;
-  font-family: "Menlo", "Meslo LG", monospace;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.3rem;
   margin-inline-end: 600px;
   color: #a3a3a3;

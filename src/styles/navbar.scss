@@ -42,7 +42,7 @@ $link-color: #2bbc8a; // slateblue
 a {
     color: #ffffff;
     // font-family: 'Roboto Mono', monospace;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
 
     &:hover {
         color: $link-color;    
@@ -211,7 +211,7 @@ a {
     font-weight: bold;
     border: $link-color;
     // font-family: 'Roboto Mono', monospace;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "Source Sans Pro", sans-serif;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -234,7 +234,7 @@ a {
       border: 2px solid $link-color;
       color: $link-color;
       // font-family: "FontAwesome";
-      font-family: "Menlo", "Meslo LG", monospace;
+      font-family: "Source Sans Pro", sans-serif;
       font-size: 1.5rem;
       display: inline-block;
       vertical-align: middle;

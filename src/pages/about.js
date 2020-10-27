@@ -21,7 +21,7 @@ class About extends Component {
                                 <h4 className="about-me">Hello! I am Eshaan Khurana. I am a developer leaning towards front end web development and design. I am currently a 3rd year Undergraduate (2018-22) at <a className="bold-blue" href=" ">Indian Institute of Information Technology, Vadodara </a>pursuing B. Tech. in Information Technology.
                                     I enjoy designing responsive websites using multiple frameworks and tools provided by <a className="bold-yellow" href=" "> JS. </a></h4>
 
-                                <h4 className="about-me"> My goal is to build pixel-perfect component and practical projects which provide a rich user experience with <a className="bold-white" href=" ">real world application.</a> </h4>
+                                <h4 className="about-me"> My goal is to build pixel-perfect components and practical projects which provide a rich user experience with <a className="bold-white" href=" ">real world application.</a> </h4>
                             </div>
                         </Fade>    
 
@@ -54,11 +54,11 @@ class About extends Component {
                         <Fade bottom>
                             <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
-                                <h4 className="about-me_bullet">• Ethereum DApps with Web3.js </h4>                 
-                                <h4 className="about-me_bullet">• AWS Cloud</h4>         
+                                <h4 className="about-me_bullet">• Ethereum DApps with Web3.js</h4>    
+                                <h4 className="about-me_bullet">• Integrating React + Web3</h4>                      
                                 <h4 className="about-me_bullet">• CI/CD</h4>         
+                                <h4 className="about-me_bullet">• Web Security</h4>         
                                 <h4 className="about-me_bullet">• Cryptographic Algorithms</h4>         
-                                <h4 className="about-me_bullet">• Three.js Library</h4>         
                             </Column>
                         </Fade>  
 
