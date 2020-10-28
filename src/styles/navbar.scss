@@ -68,6 +68,11 @@ a {
       max-width: 1368px;
       margin-left: -60px;
     } 
+
+    @media only screen and (max-width: 1500px) {
+      max-width: 1440px;
+      margin-left: -95px;
+    } 
   
     @media only screen and (max-width: 600px) {
         margin-left: 0px;
@@ -269,4 +274,8 @@ a {
 
   .logo {
     transition: all .3s ease-in-out;
+  }
+
+  .resolution {
+    height: 50px;
   }

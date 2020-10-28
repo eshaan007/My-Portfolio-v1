@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import '../styles/navbar.scss';
 import Fade from 'react-reveal/Fade';
-import Logowhite from '../images/logo-white-min.png';
+import Logowhite from '../images/logo-green.png';
  
 class Navbar extends Component {
 
@@ -34,7 +34,7 @@ class Navbar extends Component {
 
                 <a href="#top" className="logo"> 
                 <div>
-                  <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="logo"/>
+                  <img className="resolution" onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="logo"/>
                 </div> </a>
                 
                 </Fade>
