@@ -69,11 +69,12 @@ a {
       margin-left: -60px;
     } 
 
-    @media only screen and (max-width: 1500px) {
+    @media only screen and (max-width: 1440px) {
       max-width: 1440px;
       margin-left: -95px;
     } 
-  
+  // 3072*1920
+  // 2880*1800
     @media only screen and (max-width: 600px) {
         margin-left: 0px;
     }
