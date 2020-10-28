@@ -4,6 +4,7 @@ import Head from './head.js';
 import Navbar from './navbar.js';
 import About from '../pages/about.js';
 import Skills from '../pages/skills.js';
+import Projects from '../pages/projects.js';
 import Footer from '../components/footer.js';
 // import Contact from '../pages/contact.js';
 import Fade from 'react-reveal/Fade';
@@ -18,9 +19,9 @@ class App extends Component {
       <Navbar />
       <article className = "contain">
         <Fade bottom>
-        <h4 className="intro"> <span className="animate-hand" role="img" aria-label="hand-wave">👋</span> Hi, my name is </h4>
+          <h4 className="intro"> <span className="animate-hand" role="img" aria-label="hand-wave">👋</span> Hi, my name is </h4>
         <Fade bottom cascade>
-        <h2 className="name">Eshaan Khurana.</h2>
+          <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
         <h2 className="aftername"> I Design and Decentralize the Web.</h2>
         <h4 className="desc">I'm an incoming Software Engineer based in Navi Mumbai, IN specializing in building, designing and decentralizing websites, applications and everything in between.
@@ -43,6 +44,7 @@ class App extends Component {
       <About />
       <Skills />
       <Certifications />
+      <Projects />
       {/* <Contact/> */}
       <Footer />
     </div>
