@@ -22,6 +22,7 @@ $link-color: #2bbc8a; // slateblue
         width: 95%;
         text-align: center;
         color: white;
+        margin-left: 3px;
     }
 }
 
@@ -32,7 +33,7 @@ $link-color: #2bbc8a; // slateblue
     display: block;
 
     @media only screen and (max-width: 600px) {
-        margin-left: 0px;
+        margin-left: 10px;
         margin-top: 50px;
         display: none;
     }

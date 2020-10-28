@@ -10,8 +10,10 @@ class Projects extends Component {
                     <h3 className="heading-proj"> <a className="number-about" href="/projects"> 04. </a> My Projects </h3>
                 </Fade>
 
-                <Fade Bottom>
                     <div className="proj-container">
+
+                    <Fade Bottom>
+
                         <div className="project">
                             <a className="arrow-link-2" href="https://github.com/eshaan007/My-Portfolio-v1" target="_blank" rel="noopener noreferrer">Portfolio v1 <h className="arrow__1">➜</h></a>
                             {/* <h3 className="proj-name">Portfolio v1</h3> */}
@@ -29,12 +31,15 @@ class Projects extends Component {
                                     <p className="proj-desc-tool"> React.js </p>
                                     <p className="proj-desc-tool"> Sass </p>
                                     <p className="proj-desc-tool"> Git </p>
-                                    
+
                                 </div>
                             </div>
                         </div>
 
-                        
+                        </Fade>
+
+                        <Fade Bottom>
+
                         <div className="project">
                         <a className="arrow-link-2" href="https://github.com/eshaan007/Allowance-Checker" target="_blank" rel="noopener noreferrer">Allowance Checker <h className="arrow__1">➜</h></a>
                             <div className="proj-desc-container">
@@ -50,6 +55,9 @@ class Projects extends Component {
                             </div>
                         </div>
 
+</Fade>
+
+<Fade Bottom>
 
                         <div className="project">
                         <a className="arrow-link-2" href="https://github.com/eshaan007/WeatherX" target="_blank" rel="noopener noreferrer">WeatherX <h className="arrow__1">➜</h></a>
@@ -68,6 +76,8 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+</Fade>
+<Fade Bottom>
 
                         <div className="project">
                         <a className="arrow-link-2" href="https://github.com/eshaan007/DrumKit" target="_blank" rel="noopener noreferrer">Virtual DrumKit <h className="arrow__1">➜</h></a>
@@ -84,6 +94,8 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+</Fade>
+<Fade Bottom>
 
                         <div className="project">
                         <a className="arrow-link-2" href="https://github.com/cerebro-iiitv/cerebro-web-2020" target="_blank" rel="noopener noreferrer">Cerebro Website 2020 <h className="arrow__1">➜</h></a>
@@ -100,6 +112,8 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+</Fade>
+<Fade Bottom>
 
                         <div className="project">
                         <a className="arrow-link-2" href="https://github.com/eshaan007/TheSnakeGame" target="_blank" rel="noopener noreferrer">The Infamous Snake Game <h className="arrow__1">➜</h></a>
@@ -113,7 +127,9 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
+</Fade>
 
+<Fade Bottom>
 
                         <div className="project">
                         <a className="arrow-link-2" href="https://github.com/eshaan007/PENTAGON-PRISONER-DATABASE-SERVER" target="_blank" rel="noopener noreferrer">Pentagon Prisoner Database Server <h className="arrow__1">➜</h></a>
@@ -128,10 +144,9 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-
+</Fade>
 
                     </div>
-                </Fade>
             </div>
         );
     }
