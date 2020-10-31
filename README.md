@@ -6,6 +6,8 @@ Having a portfolio of my own was always something I personally wanted. But devel
 <p>
   I would keep updating it as time passes by. <strong>Do :star: the Repository if the design and template looks good!</strong> It motivates me to design and develop many more beautiful websites on my own .. Cheers!!
 </p>
+
+![GIF](https://github.com/eshaan007/My-Portfolio-v1/blob/master/Video-Insert.gif)  
   
 <h3 align="center">
   Made with ❤️ by <strong>Eshaan Khurana</strong> using <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="30"     align="center">
