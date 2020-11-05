@@ -47,7 +47,7 @@ class Navbar extends Component {
                     <li> <a className="ind" href="#cert-page"> My Cert.</a> </li>
                     <li> <a className="ind" href="#Contact-section"> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
-                      <li> <a className="res" href="https://drive.google.com/file/d/1C4wyZ0-SlTMIjIX8pvleSztAv970kNzU/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume</a> </li>
+                      <li> <a className="res" href="https://drive.google.com/file/d/1vSmtN4mST7a5taAxAtUW-3_hUdjykouy/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume</a> </li>
                     </button>
                 </Fade>            
                 </ul>
