@@ -47,7 +47,7 @@ class Navbar extends Component {
                     <li> <a className="ind" href="#project-page"> Projects</a> </li>
                     <li> <a className="ind" href="#foot"> Contact Me</a> </li>
                     <button className="resume" target="_blank" rel="noopener noreferrer">
-                      <li> <a className="res" href="https://drive.google.com/file/d/1iTj6PNoBWyNouoEJnDcldciBF24zjj7Z/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume</a> </li>
+                      <li> <a className="res" href="https://drive.google.com/file/d/1CjQFeIpMZ9xyoCL15BxAxnGfSVfgUdHH/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume</a> </li>
                     </button>
                 </Fade>            
                 </ul>
