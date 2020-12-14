@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 import { Column, Row } from 'simple-flexbox';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeartbeat, faFire, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
-// import GitHubCalendar from 'react-github-calendar';
 
 class About extends Component {
     render() {
@@ -26,46 +25,41 @@ class About extends Component {
                         </Fade>    
 
                         <Row wrap horizontal='spaced'>
-                        <Fade bottom>
-                            <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold"> <FontAwesomeIcon icon={faHeartbeat} /> Life so Far...</h4>     
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Breathing since 2000 </h4> 
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Graduating from IIITV in 2022 </h4>
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Being a Tech-Geek since 2010</h4>
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Started Coding in 2018 </h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Developing Awesome Websites ️ </h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Contributing to OSS actively </h4>                 
-                            </Column>
-                        </Fade>    
-                        
-                        <Fade bottom>
-                            <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold"> <FontAwesomeIcon icon={faFire} /> Passionate About...</h4> 
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Jamming on Acoustic Guitars</h4>     
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Listening to Rock & Country Music</h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Blogging Tech and Thoughts</h4>                                       
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Watching Football</h4>        
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Food</h4>                       
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Gaming</h4>  
-                            </Column>
-                        </Fade>    
+                            <Fade bottom>
+                                <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
+                                    <h4 className="about-me-bold"> <FontAwesomeIcon icon={faHeartbeat} /> Life so Far...</h4>     
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Breathing since 2000 </h4> 
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Graduating from IIITV in 2022 </h4>
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Being a Tech-Geek since 2010</h4>
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Started Coding in 2018 </h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Developing Awesome Websites ️ </h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Contributing to OSS actively </h4>                 
+                                </Column>
+                            </Fade>    
+                            
+                            <Fade bottom>
+                                <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
+                                    <h4 className="about-me-bold"> <FontAwesomeIcon icon={faFire} /> Passionate About...</h4> 
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Jamming on Acoustic Guitars</h4>     
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Listening to Rock & Country Music</h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Blogging Tech and Thoughts</h4>                                       
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Watching Football</h4>        
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Food</h4>                       
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Gaming</h4>  
+                                </Column>
+                            </Fade>    
 
-                        <Fade bottom>
-                            <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
-                                <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Integrating React + Web3</h4>  
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> VueJS</h4>                        
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> CI/CD</h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security</h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Cryptographic Algorithms</h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Testing using Jest</h4>                      
-                            </Column>
-                        </Fade>  
-
-                        {/* <div className="github-chart">    
-                            <GitHubCalendar username="eshaan007" blockSize={18} blockMargin={5} theme="myTheme" color="#c8a"/>
-                        </div> */}
-                        
+                            <Fade bottom>
+                                <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
+                                    <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Integrating React + Web3</h4>  
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> VueJS</h4>                        
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> CI/CD</h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security</h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Cryptographic Algorithms</h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Testing using Jest</h4>                      
+                                </Column>
+                            </Fade>
                         </Row>
                     </div>
                     

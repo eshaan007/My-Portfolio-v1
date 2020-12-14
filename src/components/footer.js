@@ -11,7 +11,7 @@ import { faGithub, faLinkedin, faMedium, faTwitter } from '@fortawesome/free-bra
     return(   
 
         <Fade bottom>
-            <div className="footer-container">
+            <div className="footer-container" id="foot">
                 {/* <Flip cascade> */}
                 <h4 className="intro1"> Designed & Developed by</h4>
                 <h4 className="intro1"> Eshaan Khurana <span role="img" aria-label="rock"> 🤘</span> 2020</h4>

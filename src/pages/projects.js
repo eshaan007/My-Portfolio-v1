@@ -22,7 +22,7 @@ class Projects extends Component {
 
                                 <h4 className="proj-desc"><h className="arrow">⪢</h> It is the first Portfolio Website I designed and developed. </h4>
                                 <h4 className="proj-desc"><h className="arrow">⪢</h> I learned a lot about React, Scss and improving SEO. </h4>
-                                <h4 className="proj-desc"><h className="arrow">⪢</h> It has helped my web development improve quite a bit. </h4>
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> It has helped my web development improve quite a bit. It has gained 85+ Stars on Github.</h4>
 
                                 <div className="proj-desc-tool-container">
 
@@ -37,6 +37,27 @@ class Projects extends Component {
                         </div>
 
                         </Fade>
+
+                        <Fade Bottom>
+
+                        <div className="project">
+                        <a className="arrow-link-2" href="https://github.com/eshaan007/MeloBeats" target="_blank" rel="noopener noreferrer">MeloBeats <h className="arrow__1">➜</h></a>
+                            <div className="proj-desc-container">
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> Because of my Love for Music, I developed a Responsive Music Player to Enjoy Chill-Hop Music. </h4>
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> It is made using ReactJS. The data is being called from ChillHop’s Website in the form of JSON. </h4>
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> It is Deployed on Vercel. It has gained 35+ Stars on Github. </h4>
+
+                                <div className="proj-desc-tool-container">
+                                    <p className="proj-desc-tool"> HTML </p>  
+                                    <p className="proj-desc-tool"> Javascript </p>
+                                    <p className="proj-desc-tool"> React.JS </p>  
+                                    <p className="proj-desc-tool"> Sass </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </Fade>
+
 
                         <Fade Bottom>
 

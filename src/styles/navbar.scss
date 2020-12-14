@@ -230,6 +230,11 @@ a {
     color: $link-color; 
     border: 2px solid $link-color;
     border-radius: 4px;
+
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid $link-color;
+    border-radius: 4px;
     transition: all .3s ease-in-out;
 
     @media only screen and (max-width: 600px) {    
@@ -240,8 +245,8 @@ a {
     &:after {
       position: relative;
       bottom: 0.2ex;
-      border: 2px solid $link-color;
-      color: $link-color;
+   
+      transition: all .3s ease-in-out;
       // font-family: "FontAwesome";
       font-family: "Source Sans Pro", sans-serif;
       font-size: 1.5rem;
