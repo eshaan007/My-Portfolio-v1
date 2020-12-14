@@ -33,7 +33,7 @@ class About extends Component {
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Being a Tech-Geek since 2010</h4>
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Started Coding in 2018 </h4>         
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Developing Awesome Websites ️ </h4>         
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Contributing to OSS actively </h4>                 
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Looking to Contribute to OSS actively </h4>                 
                                 </Column>
                             </Fade>    
                             
@@ -52,7 +52,7 @@ class About extends Component {
                             <Fade bottom>
                                 <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
                                     <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Integrating React + Web3</h4>  
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Flutter</h4>                        
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> VueJS</h4>                        
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> CI/CD</h4>         
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security</h4>         
