@@ -26,8 +26,8 @@ class Skills extends Component {
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> Java </h4>
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> HTML</h4>
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> S(CSS) </h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> C/C++ ️ </h4>  
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> SQL ️ </h4>                
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> C/C++ ️</h4>  
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Python ️</h4>                
                             </Column>
                         </Fade>    
                         
@@ -35,6 +35,7 @@ class Skills extends Component {
                             <Column className="about-column-2" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> Frameworks</h4> 
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> ReactJS</h4>     
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Redux</h4>     
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> Bootstrap4</h4>         
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> GraphQL</h4>        
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> JQuery</h4> 
@@ -45,10 +46,10 @@ class Skills extends Component {
                         <Fade bottom>
                             <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> Research Interest</h4>     
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security </h4> 
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Evolution of Blockchain  </h4>
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Distributed Ledger Technology</h4>
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Cryptographic Primitives of Blockchain </h4>                        
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Data Science and Analytics </h4> 
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Evolution of Blockchain </h4>
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Software Project Management </h4>
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security  </h4>                        
                             </Column>
                         </Fade>    
 
