@@ -18,9 +18,9 @@ class About extends Component {
                         <Fade bottom>
                             <div className="am-1">
                                 <h4 className="about-me">Hello! I'm Eshaan Khurana I am currently a 3rd year Undergraduate (2018-22) at <a className="bold-blue" href=" ">Indian Institute of Information Technology, Vadodara </a>pursuing B. Tech. in Information Technology. I love Developing, Designing and Decentralizing Websites. 
-                                    I enjoy designing Responsive websites using Multiple frameworks provided by the Mighty <a className="bold-yellow" href=" "> Javascript. </a></h4>
+                                    I enjoy designing Responsive websites using <a className="bold-yellow" href=" "> Javascript. </a></h4>
 
-                                <h4 className="about-me"> My goal is to build pixel-perfect components and practical projects which provide a rich user experience with real world application.<br/> The Future is Decentralized. </h4>
+                                <h4 className="about-me"> My goal is to build pixel-perfect components and practical projects which provide a rich user experience with real world application.</h4>
                             </div>
                         </Fade>    
 
@@ -32,7 +32,7 @@ class About extends Component {
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Graduating from IIITV in 2022 </h4>
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Being a Tech-Geek since 2010</h4>
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Started Coding in 2018 </h4>         
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Developing Awesome Websites ️ </h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Developing Awesome Websites ️and Applications </h4>         
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Looking to Contribute to OSS actively </h4>                 
                                 </Column>
                             </Fade>    
@@ -44,7 +44,6 @@ class About extends Component {
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Listening to Rock & Country Music</h4>         
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Blogging Tech and Thoughts</h4>                                       
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Watching Football</h4>        
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Food</h4>                       
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Gaming</h4>  
                                 </Column>
                             </Fade>    
@@ -52,23 +51,17 @@ class About extends Component {
                             <Fade bottom>
                                 <Column className="about-column-3" flexGrow={1} horizontal='spaced'>
                                     <h4 className="about-me-bold"> <FontAwesomeIcon icon={faLaptopCode} /> Learning...</h4>   
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Flutter</h4>                        
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> VueJS</h4>                        
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> CI/CD</h4>         
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security</h4>         
-                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Cryptographic Algorithms</h4>         
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Data Science</h4>                        
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Software Project Management </h4>                        
+                                    <h4 className="about-me_bullet"><h className="arrow">⪢</h> Engineering Management </h4>         
                                     <h4 className="about-me_bullet"><h className="arrow">⪢</h> Testing using Jest</h4>                      
                                 </Column>
                             </Fade>
                         </Row>
                     </div>
-                    
                 </Column>
-
-
             </Fade>    
             </div>
-
         </div>
         
     );
