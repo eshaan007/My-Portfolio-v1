@@ -28,7 +28,7 @@ class Projects extends Component {
 
                                     <p className="proj-desc-tool"> HTML </p>  
                                     <p className="proj-desc-tool"> Javascript </p>
-                                    <p className="proj-desc-tool"> React.js </p>
+                                    <p className="proj-desc-tool"> ReactJS </p>
                                     <p className="proj-desc-tool"> Sass </p>
                                     <p className="proj-desc-tool"> Git </p>
 
@@ -50,7 +50,7 @@ class Projects extends Component {
                                 <div className="proj-desc-tool-container">
                                     <p className="proj-desc-tool"> HTML </p>  
                                     <p className="proj-desc-tool"> Javascript </p>
-                                    <p className="proj-desc-tool"> React.JS </p>  
+                                    <p className="proj-desc-tool"> ReactJS </p>  
                                     <p className="proj-desc-tool"> Sass </p>
                                 </div>
                             </div>
@@ -58,6 +58,25 @@ class Projects extends Component {
 
                     </Fade>
 
+                    <Fade Bottom>
+                        <div className="project">
+                        <a className="arrow-link-2" href="https://github.com/eshaan007/api-digest-2021" target="_blank" rel="noopener noreferrer">Inferno - Gaming Search Engine <h className="arrow__1">➜</h></a>
+                            <div className="proj-desc-container">
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> Developed this Web-App to gather Ratings, Reviews and the Glimpses of the Game the users would be about to buy. </h4>
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> Used ReactJS and Redux and Called in the Data from RAWG API. </h4>
+                                <h4 className="proj-desc"><h className="arrow">⪢</h> Beautified using Styled Components and Animated using Framer Motion API. </h4>
+
+                                <div className="proj-desc-tool-container">
+                                    <p className="proj-desc-tool"> React </p>  
+                                    <p className="proj-desc-tool"> Redux </p>
+                                    <p className="proj-desc-tool"> Framer Motion </p>  
+                                    <p className="proj-desc-tool"> RAWG API </p>  
+                                    <p className="proj-desc-tool"> Styled Components </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </Fade>
 
                         <Fade Bottom>
 
