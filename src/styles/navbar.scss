@@ -7,36 +7,6 @@
   font-display: swap;
 }
 
-// .color-nav {
-//     background-color: #0a192f;
-// }
-
-// .nav {
-//     margin-top: 20px;
-//     font-family: 'Roboto Mono', monospace;
-//     width: 100%;
-//     float: left;
-//     padding: 0;
-//     list-style: none;
-//     position: fixed;
-//     top: 0;
-//     }
-
-// .nav li {
-//     float: left; 
-// }
-
-// .nav li a {
-//         display: block;
-//         padding: 8px 15px;
-//         text-decoration: none;
-//         font-weight: normal;
-//         color: #a6bdbf;
-
-//     &:hover {
-//         color: #007FFF;
-//     }
-// }
 $link-color: #2bbc8a; // slateblue
 
 a {
@@ -50,31 +20,31 @@ a {
 
   }
 
-  
   /* header */
   
   .header {
-    // justify-content: ;
     transition: top 0.5s;
     margin-left: -328px;
     background-color: #1d1f21;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.3);
-    //  max-width: 150rem;
      position: fixed;
      width: 100%;
      z-index: 3;
 
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 2560px) {
       max-width: 1368px;
       margin-left: -60px;
-    } 
+    }
+    
+    @media only screen and (max-width: 1368px) {
+      max-width: 1300px;
+      margin-left: 0px;
+    }
 
-    @media only screen and (max-width: 1440px) {
-      max-width: 1440px;
-      margin-left: -95px;
-    } 
-  // 3072*1920
-  // 2880*1800
+    @media only screen and (max-width: 1000px) {
+      margin-left: 0px;
+    }
+
     @media only screen and (max-width: 600px) {
         margin-left: 0px;
     }
@@ -93,10 +63,6 @@ a {
     display: block;
     padding: 15px 20px;
     text-decoration: none;
-  }
-  
-  .header li a:hover,
-  .header .menu-btn:hover {
   }
   
   .header .logo {

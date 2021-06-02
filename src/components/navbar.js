@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import '../styles/navbar.scss';
 import Fade from 'react-reveal/Fade';
-import Logowhite from '../images/logo-green.png';
+import Logowhite from '../images/new-logo.png';
  
 class Navbar extends Component {
 

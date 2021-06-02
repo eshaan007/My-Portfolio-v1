@@ -27,8 +27,6 @@ class App extends Component {
         <h4 className="desc">I'm an incoming Software Engineer based in Navi Mumbai, IN specializing in building, designing and decentralizing websites, applications and everything in between.
         </h4>
 
-        {/* Here's my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👨‍💻 */}
-
         <p>
           <button className="arrow-link" target="_blank" rel="noopener noreferrer">
             <a className="mail" href="mailto:eshaany2k@gmail.com">

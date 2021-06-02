@@ -1,19 +1,19 @@
 {
   "short_name": "Eshaan Khurana | Portfolio",
-  "name": "Welcome to Eshaan Khurana's Home !",
+  "name": "Welcome to Eshaan Khurana's Home!",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "new-logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "new-logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
+      "src": "new-logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
