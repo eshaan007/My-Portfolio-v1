@@ -42,6 +42,7 @@ a {
     }
 
     @media only screen and (max-width: 1000px) {
+      max-width: 700px;
       margin-left: 0px;
     }
 
@@ -88,7 +89,7 @@ a {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 24px 20px;
     position: relative;
     user-select: none;
 
@@ -249,5 +250,9 @@ a {
   }
 
   .resolution {
-    height: 50px;
+    height: 60px;
+
+    @media only screen and (max-width: 600px) {
+      height: 58px;
+    }
   }
