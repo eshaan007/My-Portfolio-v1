@@ -13,7 +13,6 @@ class Skills extends Component {
 
             <Fade bottom>
             <h3 className="heading_1"> <a className="number-about" href=" "> 02. </a> My Skills </h3>
-            {/* <h4 className="about-me-bold1"> Some technologies I have experience working with :</h4>         */}
             </Fade>
 
             <div id="no-mob" className="logo-container">       
@@ -37,19 +36,16 @@ class Skills extends Component {
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> ReactJS</h4>     
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> Redux</h4>     
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> Bootstrap4</h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> GraphQL</h4>        
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> JQuery</h4> 
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> GatsbyJS/ Next.js</h4>   
                             </Column>
                         </Fade>    
 
                         <Fade bottom>
                             <Column className="about-column-1" flexGrow={1} horizontal='spaced'>
                                 <h4 className="about-me-bold"> Research Interest</h4>     
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Data Science and Analytics </h4> 
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Evolution of Blockchain </h4>
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Software Project Management </h4>
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Web Security  </h4>                        
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Software Project Management </h4> 
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Business Analytics </h4>
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Product Management </h4>                        
                             </Column>
                         </Fade>    
 
@@ -71,9 +67,8 @@ class Skills extends Component {
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> VSCode </h4>   
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> Adobe Photoshop </h4> 
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> RemixIDE </h4> 
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Firebase</h4>    
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Git & Github</h4>         
-                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Chrome DevTools</h4>         
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Jira</h4>    
+                                <h4 className="about-me_bullet"><h className="arrow">⪢</h> Git</h4>         
                                 <h4 className="about-me_bullet"><h className="arrow">⪢</h> Figma</h4>                      
                             </Column>
                         </Fade>  

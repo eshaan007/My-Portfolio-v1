@@ -23,8 +23,8 @@ class App extends Component {
         <Fade bottom cascade>
           <h2 className="name">Eshaan Khurana.</h2>
         </Fade>
-        <h2 className="aftername"> I Design and Decentralize the Web.</h2>
-        <h4 className="desc">I'm an incoming Software Engineer based in Navi Mumbai, IN specializing in building, designing and decentralizing websites, applications and everything in between.
+        <h2 className="aftername"> I Lead Products to Success.</h2>
+        <h4 className="desc">I'm a Product Manager based in India specializing in Managing products, Leading people and getting <b>Work Done!</b>
         </h4>
 
         <p>
