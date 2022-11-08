@@ -16,7 +16,7 @@
     "react-helmet": "^6.0.0",
     "react-reveal": "^1.2.2",
     "react-rotating-text": "^1.4.1",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^5.0.1",
     "sass": "^1.45.2",
     "simple-flexbox": "^2.3.3"
   },
