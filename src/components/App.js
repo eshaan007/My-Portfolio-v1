@@ -9,7 +9,7 @@ import Footer from '../components/footer.js';
 // import Contact from '../pages/contact.js';
 import Fade from 'react-reveal/Fade';
 import Certifications from '../pages/certifications.js';
-import me from '../images/Eshaan-Photo';
+import me from '../images/Eshaan-Photo.jpeg';
 
 class App extends Component {
   render() {
